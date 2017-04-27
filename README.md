@@ -4,5 +4,5 @@ IMSC test suites for the IMSC family of specifications (see https://github.com/w
 
 # Ackowledgements
 
-We thank the Institut für Rundfunktechnik (IRT) for providing the basis of many IMSC1 tests. 
+We thank the Institut fÃ¼r Rundfunktechnik (IRT) for providing the basis of many IMSC1 tests. 
 
