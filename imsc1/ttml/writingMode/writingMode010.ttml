@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt 
+ xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+ xmlns:tts="http://www.w3.org/ns/ttml#styling"
+ ttp:cellResolution="50 30"
+ xml:lang="en">
+    <head>
+        <styling>
+        <style xml:id="common" tts:color="#ffffff" tts:backgroundColor="#000000" tts:fontSize="160%" tts:fontFamily="monospaceSerif" tts:padding="2%" tts:textAlign="start"/>
+        </styling>
+        <layout>
+            <region style="common" xml:id="top" tts:origin="10% 10%" tts:extent="55% 10%" tts:displayAlign="center" tts:writingMode="rltb" />
+            <region style="common" xml:id="right" tts:origin="70% 10%" tts:extent="10% 80%" tts:displayAlign="before" tts:writingMode="tb" />
+        </layout>
+    </head>
+    <body>
+        <div>
+            <p region="top" begin="0s" end="1s" xml:lang="ar">
+                نشاط التدويل، W3C
+            </p>    
+            <p region="right" begin="0s" end="1s">
+                hello <span xml:lang="ja">みなさん、<br/>こんにちは</span>
+            </p>    
+        </div>
+    </body>
+</tt>
