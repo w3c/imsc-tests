@@ -36,6 +36,9 @@
 "path": "animation/Animation017.ttml"
 },
 {
+"path": "animation/Animation018.ttml"
+},
+{
 "path": "backgroundColor/BackgroundColor001.ttml"
 },
 {
@@ -746,6 +749,9 @@
 "path": "linePadding/linePadding1.ttml"
 },
 {
+"path": "linePadding/linePadding2.ttml"
+},
+{
 "path": "multiRowAlign/multiRowAlign1.ttml"
 },
 {
@@ -771,5 +777,11 @@
 },
 {
 "path": "region/nested-region-001.ttml"
+},
+{
+"path": "structure/Structure001.ttml"
+},
+{
+"path": "structure/Structure002.ttml"
 }
 ]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt:tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttp:profile="http://www.w3.org/ns/ttml/profile/imsc1/text" xml:lang="en">
+  <head>
+    <metadata>
+      <ttm:title>Animation Test - Animate 018</ttm:title>
+      <ttm:desc>Set overrides an implicitly-inherited style</ttm:desc>
+    </metadata>
+  </head>
+  <body tts:fontFamily="monospaceSerif">
+    <div>
+      <p dur="10s">
+        <set begin="5s" tts:fontFamily="proportionalSansSerif"/>
+        The font family should become "proportionalSansSerif" at 5s
+      </p>
+    </div>
+  </body>
+</tt:tt>

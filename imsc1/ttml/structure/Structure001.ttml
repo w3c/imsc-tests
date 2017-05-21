@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt:tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttp:profile="http://www.w3.org/ns/ttml/profile/imsc1/text" xml:lang="en">
+<!--  <head>
+    <metadata> 
+      <ttm:title>Structure Test - 001</ttm:title>
+      <ttm:desc>No head element</ttm:desc>
+      <ttm:copyright>Copyright (C) Pierre-Anthony Lemieux</ttm:copyright>
+    </metadata>
+  </head>-->
+  <body>
+    <div>
+      <p begin="0s" end="10s">This text must be visible.</p>
+    </div>
+  </body>
+</tt:tt>
