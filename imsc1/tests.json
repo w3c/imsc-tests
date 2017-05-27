@@ -654,6 +654,9 @@
 "path": "unicodeBidi/unicode-bidi-embed-direction-ltr-001.ttml"
 },
 {
+"path": "unicodeBidi/unicode-bidi-embed-direction-rtl-001.ttml"
+},
+{
 "path": "unicodeBidi/unicode-bidi-override-direction-rtl-001.ttml"
 },
 {
@@ -712,6 +715,9 @@
 },
 {
 "path": "writingMode/WritingMode009.ttml"
+},
+{
+"path": "writingMode/WritingMode010.ttml"
 },
 {
 "path": "writingMode/writing-mode-lr-001.ttml"
