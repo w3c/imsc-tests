@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" 
+xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/ns/ttml/profile/imsc1/text"
+xmlns:tts="http://www.w3.org/ns/ttml#styling"
+xmlns:ittp="http://www.w3.org/ns/ttml/profile/imsc1#parameter">
+	<head>
+	</head>
+	<body>
+		<div tts:color="white" timeContainer="seq">			
+			<p tts:color="black" dur="1s" tts:backgroundColor="#FFFFFF">#FFFFFF</p>
+			<p dur="1s" tts:backgroundColor="#FFFFFF7F">#FFFFFF7F</p>
+			<p dur="1s" tts:backgroundColor="rgb(255,128,255)">rgb(255,128,255)</p>
+			<p dur="1s" tts:backgroundColor="rgba(128,255,255,63)">rgba(128,255,255,63)</p>
+			<p dur="1s" tts:backgroundColor="transparent">transparent</p>
+			<p dur="1s" tts:backgroundColor="black">black</p>
+			<p dur="1s" tts:backgroundColor="silver">silver</p>
+			<p dur="1s" tts:backgroundColor="gray">gray</p>
+			<p tts:color="black" dur="1s" tts:backgroundColor="white">white</p>
+			<p dur="1s" tts:backgroundColor="maroon">maroon</p>
+			<p dur="1s" tts:backgroundColor="red">red</p>
+			<p dur="1s" tts:backgroundColor="purple">purple</p>
+			<p dur="1s" tts:backgroundColor="fuchsia">fuchsia</p>
+			<p dur="1s" tts:backgroundColor="magenta">magenta</p>
+			<p dur="1s" tts:backgroundColor="green">green</p>
+			<p dur="1s" tts:backgroundColor="lime">lime</p>
+			<p dur="1s" tts:backgroundColor="olive">olive</p>
+			<p dur="1s" tts:backgroundColor="yellow">yellow</p>
+			<p dur="1s" tts:backgroundColor="navy">navy</p>
+			<p dur="1s" tts:backgroundColor="blue">blue</p>
+			<p dur="1s" tts:backgroundColor="teal">teal</p>
+			<p dur="1s" tts:backgroundColor="aqua">aqua</p>
+			<p dur="1s" tts:backgroundColor="cyan">cyan</p>
+		</div>
+	</body>
+</tt>
