@@ -9,12 +9,10 @@
     </metadata>
     
     <layout>
-      <tt:region tts:extent="100% 100%" xml:id="crawl">
+      <tt:region tts:origin="10% 4%" tts:extent="80% 20%" xml:id="crawl">
         <style tts:textAlign="end"/>
         <style tts:backgroundColor="black"/>
         <style tts:color="white"/>
-        <style tts:origin="10% 4%"/>
-        <style tts:extent="80% 20%"/>
         <style tts:wrapOption="noWrap"/>
         <style tts:overflow="hidden"/>
       </tt:region>

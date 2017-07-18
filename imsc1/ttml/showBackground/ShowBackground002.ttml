@@ -13,7 +13,7 @@
 	<style tts:backgroundColor="magenta"/>
 	<style tts:color="white"/>
 	<style tts:textAlign="start"/>
-	<style tts:fontSize="14px"/>
+	<style tts:fontSize="48px"/>
     	<style tts:showBackground="whenActive"/>
       </tt:region>
     </layout>

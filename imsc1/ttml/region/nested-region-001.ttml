@@ -11,9 +11,9 @@
   </head>
  <body>
    <div>
-     <p>Some text
-       <span region="r1">in r1</span>
-       <span region="r2">in r2</span>
+     <p>This text should not appear
+       <span region="r1">Bottom Region</span>
+       <span region="r2">Top Region</span>
      </p>
    </div>
  </body>

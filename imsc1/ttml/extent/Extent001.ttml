@@ -10,7 +10,6 @@
     
     <layout>
       <tt:region tts:extent="100% 100%" xml:id="r1">
-	<style tts:extent="auto"/>
 	<style tts:backgroundColor="blue"/>
       </tt:region>
     </layout>
