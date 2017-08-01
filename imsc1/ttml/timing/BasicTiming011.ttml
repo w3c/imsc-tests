@@ -9,12 +9,10 @@
     </metadata>
     
     <layout>
-      <tt:region tts:extent="100% 100%" xml:id="rollup">
+      <tt:region tts:origin="0% 0%" tts:extent="90% 40%" xml:id="rollup">
         <style tts:displayAlign="after"/>
         <style tts:backgroundColor="black"/>
         <style tts:color="white"/>
-        <style tts:origin="0% 0%"/>
-        <style tts:extent="90% 40%"/>
       </tt:region>	   
     </layout>
   </head>
@@ -32,7 +30,7 @@
         <span begin="1.6875s">time </span>
         <span begin="1.875s"><br/>spread </span>
         <span begin="2.0625s">over </span>
-        <span begin="2.25s">three </span>
+        <span begin="2.25s">four </span>
         <span begin="2.4375s">lines<br/></span>
         <span begin="2.625s"><br/></span>
         <span begin="2.8125s"><br/></span>

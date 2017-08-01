@@ -20,7 +20,7 @@ limitations under the License.
 <tt 
  xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
  xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ebuttm="urn:ebu:tt:metadata"  ttp:timeBase="media" xml:lang="en"
- ttp:cellResolution="50 30">
+ ttp:cellResolution="50 10">
 	<head>
 		<metadata>
 			<ebuttm:documentMetadata>
