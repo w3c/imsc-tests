@@ -4,13 +4,13 @@
   <head>
     <metadata> 
       <ttm:title>Content Test - Paragraph - 002</ttm:title>
-      <ttm:desc>Test the p element with no timing attributes (nothing is displayed).</ttm:desc>
+      <ttm:desc>Test the p element with no timing attributes in a seq container.</ttm:desc>
       <ttm:copyright>Copyright (C) 2008 W3C (MIT, ERCIM, Keio).</ttm:copyright>
     </metadata>
   </head>
   <body timeContainer="seq">
     <div>
-      <p>This text must not be visible.</p>
+      <p>This text must be visible.</p>
     </div>
   </body>
 </tt:tt>
