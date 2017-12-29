@@ -39,7 +39,7 @@ limitations under the License.
   <tt:body>
     <tt:div>
       <tt:p xml:id="subtitle1" region="bottom" begin="00:00:00.000" end="00:00:10.000" style="paragraphStyle">
-        <tt:span style="textWhite">This subtitle</tt:span><tt:span style="doubleHeight"> uses</tt:span><tt:br/>
+        <tt:span style="textWhite">This subtitle</tt:span><tt:span style="textWhite doubleHeight"> uses</tt:span><tt:br/>
         <tt:span style="textWhite">linepadding</tt:span>
       </tt:p>
     </tt:div>
