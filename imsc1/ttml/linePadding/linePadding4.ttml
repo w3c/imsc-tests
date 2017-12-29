@@ -29,7 +29,7 @@ limitations under the License.
     </tt:metadata>
     <tt:styling>
       <tt:style xml:id="textWhite" tts:color="#ffffff" tts:backgroundColor="#000000" tts:fontSize="160%" tts:fontFamily="monospaceSerif" />
-      <tt:style xml:id="textWhiteLarge" tts:color="#ffffff" tts:backgroundColor="#000000" tts:fontSize="200%" tts:fontFamily="monospaceSerif" />
+      <tt:style xml:id="doubleHeight" tts:fontSize="200%"/>
       <tt:style xml:id="paragraphStyle" tts:textAlign="center" ebutts:linePadding="0.5c" tts:lineHeight="200%"/>
     </tt:styling>
     <tt:layout>
@@ -39,7 +39,7 @@ limitations under the License.
   <tt:body>
     <tt:div>
       <tt:p xml:id="subtitle1" region="bottom" begin="00:00:00.000" end="00:00:10.000" style="paragraphStyle">
-        <tt:span style="textWhite">This subtitle</tt:span><tt:span style="textWhiteLarge"> uses</tt:span><tt:br/>
+        <tt:span style="textWhite">This subtitle</tt:span><tt:span style="doubleHeight"> uses</tt:span><tt:br/>
         <tt:span style="textWhite">linepadding</tt:span>
       </tt:p>
     </tt:div>
