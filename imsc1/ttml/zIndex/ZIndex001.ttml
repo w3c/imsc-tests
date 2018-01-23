@@ -12,22 +12,22 @@
 			<ttm:desc>Various values of zIndex</ttm:desc>
 		</metadata>
 		<layout>
-			<tt:region xml:id="r1" tts:backgroundColor="black" tts:zIndex="1000" tts:showBackground="whenActive"/>
-			<tt:region xml:id="r2" tts:backgroundColor="red"  tts:zIndex="1" tts:showBackground="whenActive"/>
-			<tt:region xml:id="r3" tts:backgroundColor="blue"  tts:zIndex="0" tts:showBackground="whenActive"/>
-			<tt:region xml:id="r4" tts:backgroundColor="green"  tts:zIndex="auto" tts:showBackground="whenActive"/>
-			<tt:region xml:id="r5" tts:backgroundColor="fuchsia"  tts:zIndex="-1" tts:showBackground="whenActive"/>
-			<tt:region xml:id="r6" tts:backgroundColor="gray"  tts:zIndex="-1000" tts:showBackground="whenActive"/>
+			<tt:region xml:id="r1" tts:extent="100% 100%" tts:backgroundColor="black" tts:zIndex="1000" tts:showBackground="whenActive"/>
+			<tt:region xml:id="r2" tts:extent="100% 100%" tts:backgroundColor="red" tts:zIndex="1" tts:showBackground="whenActive"/>
+			<tt:region xml:id="r3" tts:extent="100% 100%" tts:backgroundColor="blue" tts:zIndex="0" tts:showBackground="whenActive"/>
+			<tt:region xml:id="r4" tts:extent="100% 100%" tts:backgroundColor="green" tts:zIndex="auto" tts:showBackground="whenActive"/>
+			<tt:region xml:id="r5" tts:extent="100% 100%" tts:backgroundColor="fuchsia" tts:zIndex="-1" tts:showBackground="whenActive"/>
+			<tt:region xml:id="r6" tts:extent="100% 100%" tts:backgroundColor="gray" tts:zIndex="-1000" tts:showBackground="whenActive"/>
 		</layout>
 	</head>
 	<body>
 		<div timeContainer="seq">
-			<p region="r1" dur="1s">tts:zIndex="1000"</p>
-			<p region="r2" dur="1s">tts:zIndex="1"</p>
-			<p region="r3" dur="1s">tts:zIndex="0"</p>
-			<p region="r4" dur="1s">tts:zIndex="auto"</p>
-			<p region="r5" dur="1s">tts:zIndex="-1"</p>
-			<p region="r6" dur="1s">tts:zIndex="-1000"</p>
+			<p region="r1" begin="0s" end="1s">tts:zIndex="1000"</p>
+			<p region="r2" begin="0s" end="1s">tts:zIndex="1"</p>
+			<p region="r3" begin="0s" end="1s">tts:zIndex="0"</p>
+			<p region="r4" begin="0s" end="1s">tts:zIndex="auto"</p>
+			<p region="r5" begin="0s" end="1s">tts:zIndex="-1"</p>
+			<p region="r6" begin="0s" end="1s">tts:zIndex="-1000"</p>
 		</div>
 	</body>
 </tt:tt>

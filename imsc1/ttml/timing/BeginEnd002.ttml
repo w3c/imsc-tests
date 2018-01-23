@@ -9,7 +9,7 @@
     </metadata>
     
     <layout>
-      <region xml:id="r1" tts:displayAlign="after" />
+      <region xml:id="r1" tts:displayAlign="after" tts:extent="100% 100%"/>
     </layout>
     
   </head>
