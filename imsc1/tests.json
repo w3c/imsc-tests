@@ -1,5 +1,8 @@
 [
 {
+"path": "activeArea/ActiveArea001.ttml"
+},
+{
 "path": "animation/Animation001.ttml"
 },
 {
@@ -723,7 +726,7 @@
 "path": "writingMode/WritingMode009.ttml"
 },
 {
-"path": "writingMode/WritingMode010.ttml"
+"path": "writingMode/writingMode010.ttml"
 },
 {
 "path": "writingMode/writing-mode-lr-001.ttml"
