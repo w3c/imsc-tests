@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml"
+xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+xmlns="http://www.w3.org/ns/ttml"
+xmlns:tts="http://www.w3.org/ns/ttml#styling"
+ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+  <head>
+  
+    <styling>
+    
+      <style xml:id="s1" tts:showBackground="whenActive" tts:color="white" tts:backgroundColor="black" tts:textAlign="center" tts:displayAlign="center"/>
+      
+    </styling>
+    
+    <layout>
+
+      <region style="s1" xml:id="horizontal" tts:extent="40% 60%" tts:origin="5% 5%" />
+      
+      <region style="s1" xml:id="vertical" tts:extent="40% 60%" tts:origin="55% 5%" tts:writingMode="tblr"/>
+      
+      <region style="s1" xml:id="caption" tts:extent="40% 20%" tts:origin="5% 75%" />
+
+    </layout>
+    
+  </head>
+  
+  <body>
+  
+    <div begin="0s" end="2s">
+
+      <p region="caption">Positive shear</p>
+
+      <p region="horizontal">
+        <span tts:fontShear="16.78842%">三日坊主</span><br/>
+        <span tts:fontShear="50%">三日坊主</span><br/>
+        <span tts:fontShear="64.333%">三日坊主</span>
+      </p>
+
+      <p region="vertical">
+        <span tts:fontShear="16.78842%">三日坊主</span><br/>
+        <span tts:fontShear="50%">三日坊主</span>
+        <br/>
+        <span tts:fontShear="64.333%">三日坊主</span>
+      </p>
+
+    </div>
+
+    <div begin="2s" end="4s">
+
+      <p region="caption">Negative shear</p>
+
+      <p region="horizontal">
+        <span tts:fontShear="-16.78842%">三日坊主</span><br/>
+        <span tts:fontShear="-50%">三日坊主</span><br/>
+        <span tts:fontShear="-64.333%">三日坊主</span>
+      </p>
+      
+      <p region="vertical">
+        <span tts:fontShear="-16.78842%">三日坊主</span><br/>
+        <span tts:fontShear="-50%">三日坊主</span><br/>
+        <span tts:fontShear="-64.333%">三日坊主</span>
+      </p>
+      
+    </div>
+    
+  </body>
+  
+</tt>
