@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright 2018 BBC
+    -->
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns:ebuttm="urn:ebu:tt:metadata" ttp:timeBase="media"
+    xmlns:itts="http://www.w3.org/ns/ttml/profile/imsc1#styling" xml:lang="en-GB"
+    ttp:cellResolution="20 20">
+    <head>
+        <styling>
+            <style xml:id="p_wrap" tts:fontSize="100%" tts:fontFamily="proportionalSansSerif"
+                tts:wrapOption="wrap" itts:fillLineGap="true"/>
+            <style xml:id="p_noWrap" tts:fontSize="100%" tts:fontFamily="proportionalSansSerif"
+                tts:wrapOption="noWrap" itts:fillLineGap="true"/>
+            <style xml:id="p_80pc" tts:lineHeight="80%" tts:fontSize="100%"
+                tts:fontFamily="proportionalSansSerif" tts:wrapOption="wrap" itts:fillLineGap="true"/>
+            <style xml:id="p_100pc" tts:lineHeight="100%" tts:fontSize="100%"
+                tts:fontFamily="proportionalSansSerif" tts:wrapOption="wrap" itts:fillLineGap="true"/>
+            <style xml:id="p_120pc" tts:lineHeight="120%" tts:fontSize="100%"
+                tts:fontFamily="proportionalSansSerif" tts:wrapOption="wrap" itts:fillLineGap="true"/>
+            <style xml:id="p_150pc" tts:lineHeight="150%" tts:fontSize="100%"
+                tts:fontFamily="proportionalSansSerif" tts:wrapOption="wrap" itts:fillLineGap="true"/>
+            <style xml:id="p_250pc" tts:lineHeight="250%" tts:fontSize="100%"
+                tts:fontFamily="proportionalSansSerif" tts:wrapOption="wrap" itts:fillLineGap="true"/>
+            <style xml:id="span" tts:color="#ffffff" tts:backgroundColor="#000000"/>
+            <style xml:id="span_small" tts:fontSize="50%" tts:color="#ff0000"
+                tts:backgroundColor="#000000"/>
+            <style xml:id="span_large" tts:fontSize="150%" tts:color="#0000ff"
+                tts:backgroundColor="#000000"/>
+        </styling>
+        <layout>
+            <region xml:id="R1" tts:origin="10% 10%" tts:extent="80% 80%" tts:overflow="visible"/>
+        </layout>
+    </head>
+    <body>
+        <div>
+            <p style="p_wrap" xml:id="subtitle1" region="R1" begin="00:00:00" end="00:00:05">
+                tts:wrapOption = wrap <span style="span">Line break inside the span:<br/>Second
+                    line.</span>
+                <span style="span">Line break between spans:</span><br/><span style="span">Second
+                    line.</span>
+            </p>
+            <p style="p_noWrap" xml:id="subtitle2" region="R1" begin="00:00:05" end="00:00:10">
+                tts:wrapOption = noWrap <span style="span">Line break inside the span:<br/>Second
+                    line.</span>
+                <span style="span">Line break between spans:</span><br/><span style="span">Second
+                    line.</span>
+            </p>
+            <p style="p_wrap" xml:id="subtitle3" region="R1" begin="00:00:10" end="00:00:15">
+                tts:lineHeight="normal" <span style="span">! " # $ % &amp; ' ( ) * + , - . <br/>/ 0 1
+                    2 3 4 5 6 7 8 9 : ; &gt; = &lt; ? @ </span>
+                <span style="span_small">A B C D E H I </span>
+                <span style="span">J K L N O P Q R S T U V W X Y Z [ \ ] ^ _ ` </span>
+                <span style="span_large">a b c d e h i j k l n o p q r</span>
+                <span style="span">s t u v w x y z { | } ~ ¡ ¢ £ ¥ § ¤ ‘ “ « ← ↑ → ↓<br/></span>
+                <span style="span_large">° ± ² ³ × µ ¶ · ÷ ’ ” » ¼ ½ ¾ ¿ ́ ̂ ̃ ̄ ̆ ̇ ̈ ̊ ̧
+                    ̋<br/></span>
+                <span style="span_small">̨ ― ¹ ® © ™ ♪ ¬ ¦ ⅛ ⅜ ⅝ ⅞ Ω Æ Đ ª Ħ Ĳ Ŀ Ł Ø Œ Þ Ŧ<br/> Ŋ ŉ
+                    ĸ æ đ ð ħ ı ĳ ŀ ł ø œ ß þ ŧ ŋ</span>
+            </p>
+            <p style="p_100pc" xml:id="subtitle4" region="R1" begin="00:00:15" end="00:00:20">
+                tts:lineHeight="100%" <span style="span">! " # $ % &amp; ' ( ) * + , - . <br/>/ 0 1 2
+                    3 4 5 6 7 8 9 : ; &gt; = &lt; ? @ </span>
+                <span style="span_small">A B C D E H I </span>
+                <span style="span">J K L N O P Q R S T U V W X Y Z [ \ ] ^ _ ` </span>
+                <span style="span_large">a b c d e h i j k l n o p q r</span>
+                <span style="span">s t u v w x y z { | } ~ ¡ ¢ £ ¥ § ¤ ‘ “ « ← ↑ → ↓<br/></span>
+                <span style="span_large">° ± ² ³ × µ ¶ · ÷ ’ ” » ¼ ½ ¾ ¿ ́ ̂ ̃ ̄ ̆ ̇ ̈ ̊ ̧
+                    ̋<br/></span>
+                <span style="span_small">̨ ― ¹ ® © ™ ♪ ¬ ¦ ⅛ ⅜ ⅝ ⅞ Ω Æ Đ ª Ħ Ĳ Ŀ Ł Ø Œ Þ Ŧ<br/> Ŋ ŉ
+                    ĸ æ đ ð ħ ı ĳ ŀ ł ø œ ß þ ŧ ŋ</span>
+            </p>
+            <p style="p_120pc" xml:id="subtitle5" region="R1" begin="00:00:20" end="00:00:25">
+                tts:lineHeight="120%" <span style="span">! " # $ % &amp; ' ( ) * + , - . <br/>/ 0 1 2
+                    3 4 5 6 7 8 9 : ; &gt; = &lt; ? @ </span>
+                <span style="span_small">A B C D E H I </span>
+                <span style="span">J K L N O P Q R S T U V W X Y Z [ \ ] ^ _ ` </span>
+                <span style="span_large">a b c d e h i j k l n o p q r</span>
+                <span style="span">s t u v w x y z { | } ~ ¡ ¢ £ ¥ § ¤ ‘ “ « ← ↑ → ↓<br/></span>
+                <span style="span_large">° ± ² ³ × µ ¶ · ÷ ’ ” » ¼ ½ ¾ ¿ ́ ̂ ̃ ̄ ̆ ̇ ̈ ̊ ̧
+                    ̋<br/></span>
+                <span style="span_small">̨ ― ¹ ® © ™ ♪ ¬ ¦ ⅛ ⅜ ⅝ ⅞ Ω Æ Đ ª Ħ Ĳ Ŀ Ł Ø Œ Þ Ŧ<br/> Ŋ ŉ
+                    ĸ æ đ ð ħ ı ĳ ŀ ł ø œ ß þ ŧ ŋ</span>
+            </p>
+            <p style="p_80pc" xml:id="subtitle5" region="R1" begin="00:00:25" end="00:00:30">
+                tts:lineHeight="80%" <span style="span">! " # $ % &amp; ' ( ) * + , - . <br/>/ 0 1 2
+                    3 4 5 6 7 8 9 : ; &gt; = &lt; ? @ </span>
+                <span style="span_small">A B C D E H I </span>
+                <span style="span">J K L N O P Q R S T U V W X Y Z [ \ ] ^ _ ` </span>
+                <span style="span_large">a b c d e h i j k l n o p q r</span>
+                <span style="span">s t u v w x y z { | } ~ ¡ ¢ £ ¥ § ¤ ‘ “ « ← ↑ → ↓<br/></span>
+                <span style="span_large">° ± ² ³ × µ ¶ · ÷ ’ ” » ¼ ½ ¾ ¿ ́ ̂ ̃ ̄ ̆ ̇ ̈ ̊ ̧
+                    ̋<br/></span>
+                <span style="span_small">̨ ― ¹ ® © ™ ♪ ¬ ¦ ⅛ ⅜ ⅝ ⅞ Ω Æ Đ ª Ħ Ĳ Ŀ Ł Ø Œ Þ Ŧ<br/> Ŋ ŉ
+                    ĸ æ đ ð ħ ı ĳ ŀ ł ø œ ß þ ŧ ŋ</span>
+            </p>
+            <p style="p_150pc" xml:id="subtitle6" region="R1" begin="00:00:30" end="00:00:35">
+                tts:lineHeight="150%" <span style="span">! " # $ % &amp; ' ( ) * + , - . <br/>/ 0 1 2
+                    3 4 5 6 7 8 9 : ; &gt; = &lt; ? @ </span>
+                <span style="span_small">A B C D E H I </span>
+                <span style="span">J K L N O P Q R S T U V W X Y Z [ \ ] ^ _ ` </span>
+                <span style="span_large">a b c d e h i j k l n o p q r</span>
+                <span style="span">s t u v w x y z { | } ~ ¡ ¢ £ ¥ § ¤ ‘ “ « ← ↑ → ↓<br/></span>
+                <span style="span_large">° ± ² ³ × µ ¶ · ÷ ’ ” » ¼ ½ ¾ ¿ ́ ̂ ̃ ̄ ̆ ̇ ̈ ̊ ̧
+                    ̋<br/></span>
+                <span style="span_small">̨ ― ¹ ® © ™ ♪ ¬ ¦ ⅛ ⅜ ⅝ ⅞ Ω Æ Đ ª Ħ Ĳ Ŀ Ł Ø Œ Þ Ŧ<br/> Ŋ ŉ
+                    ĸ æ đ ð ħ ı ĳ ŀ ł ø œ ß þ ŧ ŋ</span>
+            </p>
+            <p style="p_250pc" xml:id="subtitle7" region="R1" begin="00:00:35" end="00:00:40">
+                tts:lineHeight="250%" <span style="span">! " # $ % &amp; ' ( ) * + , - . <br/>/ 0 1 2
+                    3 4 5 6 7 8 9 : ; &gt; = &lt; ? @ </span>
+                <span style="span_small">A B C D E H I </span>
+                <span style="span">J K L N O P Q R S T U V W X Y Z [ \ ] ^ _ ` </span>
+                <span style="span_large">a b c d e h i j k l n o p q r</span>
+                <span style="span">s t u v w x y z { | } ~ ¡ ¢ £ ¥ § ¤ ‘ “ « ← ↑ → ↓<br/></span>
+                <span style="span_large">° ± ² ³ × µ ¶ · ÷ ’ ” » ¼ ½ ¾ ¿ ́ ̂ ̃ ̄ ̆ ̇ ̈ ̊ ̧
+                    ̋<br/></span>
+                <span style="span_small">̨ ― ¹ ® © ™ ♪ ¬ ¦ ⅛ ⅜ ⅝ ⅞ Ω Æ Đ ª Ħ Ĳ Ŀ Ł Ø Œ Þ Ŧ<br/> Ŋ ŉ
+                    ĸ æ đ ð ħ ı ĳ ŀ ł ø œ ß þ ŧ ŋ</span>
+            </p>
+        </div>
+    </body>
+</tt>
