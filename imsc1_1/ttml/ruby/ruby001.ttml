@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+  <body>
+    <div>
+      <p begin="1s" end="2s">
+        <span tts:ruby="container" tts:rubyAlign="center">
+          <span tts:ruby="base">利用許諾</span>
+          <span tts:ruby="text">ライセンス</span>
+        </span>
+      </p>
+    </div>
+  </body>
+</tt>
