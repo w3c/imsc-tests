@@ -6,6 +6,9 @@
 "path": "position/position002.ttml"
 },
 {
+"path": "textCombine/textCombine001.ttml"
+},
+{
 "path": "textShadow/textShadow001.ttml"
 },
 {
@@ -18,6 +21,6 @@
 "path": "displayAspectRatio/displayAspectRatio003.ttml"
 },
 {
-"path": "fontShear/fontShear001.ttml"1
+"path": "fontShear/fontShear001.ttml"
 }
 ]
