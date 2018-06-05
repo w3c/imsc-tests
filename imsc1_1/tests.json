@@ -21,6 +21,30 @@
 "path": "displayAspectRatio/displayAspectRatio003.ttml"
 },
 {
+"path": "displayAspectRatio/displayAspectRatio004.ttml"
+},
+{
 "path": "fontShear/fontShear001.ttml"
+},
+{
+"path": "fontShear/fontShear002.ttml"
+},
+{
+"path": "ruby/ruby001.ttml"
+},
+{
+"path": "ruby/ruby002.ttml"
+},
+{
+"path": "rubyAlign/rubyAlign001.ttml"
+},
+{
+"path": "textEmphasis/textEmphasis001.ttml"
+},
+{
+"path": "textEmphasis/textEmphasis002.ttml"
+},
+{
+"path": "textEmphasis/textEmphasis003.ttml"
 }
 ]
