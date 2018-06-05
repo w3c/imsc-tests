@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+    xml:lang="jp"
+    ttp:profile="http://www.w3.org/ns/ttml/profile/imsc1/text">
+  <head>
+    <styling>
+      <style xml:id="s1"
+             tts:showBackground="whenActive"
+             tts:color="white"
+             tts:backgroundColor="black"
+             tts:textAlign="start"
+             tts:displayAlign="before"
+             tts:writingMode="tbrl"/>
+    </styling>
+    <layout>
+      <region style="s1"
+              xml:id="tbrlCenter"
+              tts:extent="30% 80%"
+              tts:origin="35% 10%" />
+    </layout>
+  </head>
+  <body>
+    <div begin="0s"
+         end="1s">
+      <p region="tbrlCenter">あいAB34三四</p>
+    </div>
+  </body>
+</tt>
