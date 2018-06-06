@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+  <head>
+
+    <layout>
+
+      <region xml:id="r1"
+              tts:extent="60% 80%"
+              tts:origin="30% 10%"
+              tts:displayAlign="after"
+              tts:color="white"
+              tts:textOutline="black 5%"
+              tts:textAlign="left"
+              tts:rubyReserve="outside"/>
+
+    </layout>
+
+  </head>
+
+  <body>
+
+    <div region="r1">
+
+      <p begin="0s" end="1s" >
+      スペイン外人部隊の<span tts:ruby="container"><span tts:ruby="base">歌</span><span tts:ruby="text">うた</span></span>です<br/>
+      遠征でよく<span tts:ruby="container"><span tts:ruby="base">歌</span><span tts:ruby="text">うた</span></span>いました      
+      </p>
+
+      <p begin="1s" end="2s">
+      スペイン外人部隊の歌です<br/>遠征でよく歌いました
+      </p>
+
+      <p begin="2s" end="3s">
+      スペイン外人部隊の<span tts:ruby="container"><span tts:ruby="base">歌</span><span tts:ruby="text">うた</span></span>です<br/>
+      遠征でよく<span tts:ruby="container"><span tts:ruby="base">歌</span><span tts:ruby="text">うた</span></span>いました
+      </p>
+
+    </div>
+
+  </body>
+
+</tt>
