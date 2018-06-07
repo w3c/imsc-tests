@@ -1,5 +1,8 @@
 [
 {
+"path": "activeArea/ActiveArea001.ttml"
+},
+{
 "path": "animation/Animation001.ttml"
 },
 {
@@ -222,6 +225,9 @@
 "path": "displayAlign/DisplayAlign003.ttml"
 },
 {
+"path": "displayAlign/DisplayAlign004.ttml"
+},
+{
 "path": "displayAlign/displayalign-after-001.ttml"
 },
 {
@@ -268,6 +274,9 @@
 },
 {
 "path": "fillLineGap/FillLineGap002.ttml"
+},
+{
+"path": "fillLineGap/FillLineGap003.ttml"
 },
 {
 "path": "fillLineGap/FillLineGap004.ttml"
