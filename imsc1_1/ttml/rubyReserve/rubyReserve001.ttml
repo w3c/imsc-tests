@@ -5,17 +5,31 @@
     xmlns:tts="http://www.w3.org/ns/ttml#styling"
     ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
   <head>
+  
+    <styling>
+          
+      <style xml:id="s1"
+              tts:displayAlign="before"
+              tts:color="white"
+              tts:backgroundColor="green"
+              tts:textAlign="left"
+              tts:padding="2%"/>
+    
+    </styling>
 
     <layout>
 
-      <region xml:id="r1"
-              tts:extent="60% 80%"
+      <region xml:id="with-reserve"
+              style="s1"
+              tts:extent="60% 30%"
               tts:origin="30% 10%"
-              tts:displayAlign="after"
-              tts:color="white"
-              tts:textOutline="black 5%"
-              tts:textAlign="left"
               tts:rubyReserve="outside"/>
+              
+      <region xml:id="without-reserve"
+              style="s1"
+              tts:extent="60% 30%"
+              tts:origin="30% 60%"
+              />
 
     </layout>
 
@@ -23,18 +37,32 @@
 
   <body>
 
-    <div region="r1">
+    <div>
 
-      <p begin="0s" end="1s" >
+      <p region="without-reserve" begin="0s" end="1s" style="s1">
+      スペイン外人部隊の<span tts:ruby="container"><span tts:ruby="base">歌</span><span tts:ruby="text">うた</span></span>です<br/>
+      遠征でよく<span tts:ruby="container"><span tts:ruby="base">歌</span><span tts:ruby="text">うた</span></span>いました      
+      </p>
+      
+      <p region="with-reserve" begin="0s" end="1s" style="s1">
       スペイン外人部隊の<span tts:ruby="container"><span tts:ruby="base">歌</span><span tts:ruby="text">うた</span></span>です<br/>
       遠征でよく<span tts:ruby="container"><span tts:ruby="base">歌</span><span tts:ruby="text">うた</span></span>いました      
       </p>
 
-      <p begin="1s" end="2s">
+      <p region="without-reserve" begin="1s" end="2s" style="s1">
+      スペイン外人部隊の歌です<br/>遠征でよく歌いました
+      </p>
+      
+      <p region="with-reserve" begin="1s" end="2s" style="s1">
       スペイン外人部隊の歌です<br/>遠征でよく歌いました
       </p>
 
-      <p begin="2s" end="3s">
+      <p region="without-reserve" begin="2s" end="3s" style="s1">
+      スペイン外人部隊の<span tts:ruby="container"><span tts:ruby="base">歌</span><span tts:ruby="text">うた</span></span>です<br/>
+      遠征でよく<span tts:ruby="container"><span tts:ruby="base">歌</span><span tts:ruby="text">うた</span></span>いました
+      </p>
+      
+      <p region="with-reserve" begin="2s" end="3s" style="s1">
       スペイン外人部隊の<span tts:ruby="container"><span tts:ruby="base">歌</span><span tts:ruby="text">うた</span></span>です<br/>
       遠征でよく<span tts:ruby="container"><span tts:ruby="base">歌</span><span tts:ruby="text">うた</span></span>いました
       </p>
