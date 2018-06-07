@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml"
-xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
-xmlns:tts="http://www.w3.org/ns/ttml#styling"
-ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/image"
-tts:extent="640px 480px">
+<tt xml:lang="en"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/image"
+    tts:extent="640px 480px"
+    ttp:displayAspectRatio="4 3">
 	<head>
 		<layout>
-			<region xml:id="area1" tts:origin="128px 128px" tts:extent="160px 120px"/>
+			<region xml:id="area1"
+			        tts:origin="128px 128px"
+			        tts:extent="160px 120px"/>
 		</layout>
 	</head>
 	<body>
-		<div begin="0s" end="1s" region="area1">
-      <image tts:extent="160px 120px" src="image001-img.png" type="image/png"/>
+		<div begin="0s"
+		     end="1s"
+		     region="area1">
+      <image tts:extent="160px 120px"
+             src="image001-img.png"
+             type="image/png"/>
     </div>
 	</body>
 </tt>
