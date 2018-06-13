@@ -26,14 +26,14 @@
 
     <div begin="0s" end="1s">
     
-      <p region="horizontal" tts:fontShear="16.78842%">
+      <p region="horizontal" tts:shear="16.78842%">
         <span tts:ruby="container">
           <span tts:ruby="base">利用許諾</span>
           <span tts:ruby="text">ライセンス</span>
         </span>
       </p>
 
-      <p region="vertical" tts:fontShear="16.78842%">
+      <p region="vertical" tts:shear="16.78842%">
         あい<span tts:textCombine="all">34</span>三四
       </p>
 
