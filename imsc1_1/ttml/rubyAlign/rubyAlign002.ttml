@@ -12,7 +12,7 @@
   <body>
     <div region="r1">
       <p begin="0s" end="1s">
-        <span tts:ruby="container" tts:rubyAlign="center">
+        <span tts:ruby="container" tts:rubyAlign="spaceAround">
           <span tts:ruby="base">利用許諾</span>
           <span tts:ruby="text">ライセンス</span>
         </span>
