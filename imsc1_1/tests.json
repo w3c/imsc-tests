@@ -24,10 +24,13 @@
 "path": "displayAspectRatio/displayAspectRatio004.ttml"
 },
 {
-"path": "fontShear/fontShear001.ttml"
+"path": "shear/shear001.ttml"
 },
 {
-"path": "fontShear/fontShear002.ttml"
+"path": "shear/shear002.ttml"
+},
+{
+"path": "shear/shear003.ttml"
 },
 {
 "path": "ruby/ruby001.ttml"
@@ -49,9 +52,11 @@
 },
 {
 "path": "rubyReserve/rubyReserve001.ttml"
-}
-,
+},
 {
 "path": "rubyReserve/rubyReserve002.ttml"
+},
+{
+"path": "initial/initial001.ttml"
 }
 ]
