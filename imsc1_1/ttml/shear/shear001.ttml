@@ -30,12 +30,12 @@ ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
 
       <p region="caption">Positive shear</p>
 
-      <p region="horizontal" tts:fontShear="16.78842%">
+      <p region="horizontal" tts:shear="16.78842%">
         16.78842%
         <br/>三日坊主
       </p>
 
-      <p region="vertical" tts:fontShear="16.78842%">
+      <p region="vertical" tts:shear="16.78842%">
         16.78842%
         <br/>三日坊主
       </p>
@@ -46,12 +46,12 @@ ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
 
       <p region="caption">Positive shear</p>
 
-      <p region="horizontal" tts:fontShear="50%">
+      <p region="horizontal" tts:shear="50%">
        50%
         <br/>三日坊主
       </p>
 
-      <p region="vertical" tts:fontShear="50%">
+      <p region="vertical" tts:shear="50%">
         50%
         <br/>三日坊主
       </p>
@@ -62,12 +62,12 @@ ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
 
       <p region="caption">Positive shear</p>
 
-      <p region="horizontal" tts:fontShear="64.333%">
+      <p region="horizontal" tts:shear="64.333%">
        64.333%
         <br/>三日坊主
       </p>
 
-      <p region="vertical" tts:fontShear="64.333%">
+      <p region="vertical" tts:shear="64.333%">
         64.333%
         <br/>三日坊主
       </p>
@@ -78,12 +78,12 @@ ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
 
       <p region="caption">Negative shear</p>
 
-      <p region="horizontal" tts:fontShear="-16.78842%">
+      <p region="horizontal" tts:shear="-16.78842%">
         -16.78842%
         <br/>三日坊主
       </p>
 
-      <p region="vertical" tts:fontShear="-16.78842%">
+      <p region="vertical" tts:shear="-16.78842%">
         -16.78842%
         <br/>三日坊主
       </p>
@@ -94,12 +94,12 @@ ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
 
       <p region="caption">Negative shear</p>
 
-      <p region="horizontal" tts:fontShear="-50%">
+      <p region="horizontal" tts:shear="-50%">
        -50%
         <br/>三日坊主
       </p>
 
-      <p region="vertical" tts:fontShear="-50%">
+      <p region="vertical" tts:shear="-50%">
         -50%
         <br/>三日坊主
       </p>
@@ -110,12 +110,12 @@ ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
 
       <p region="caption">Negative shear</p>
 
-      <p region="horizontal" tts:fontShear="-64.333%">
+      <p region="horizontal" tts:shear="-64.333%">
        -64.333%
         <br/>三日坊主
       </p>
 
-      <p region="vertical" tts:fontShear="-64.333%">
+      <p region="vertical" tts:shear="-64.333%">
         -64.333%
         <br/>三日坊主
       </p>
