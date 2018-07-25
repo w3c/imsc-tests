@@ -18,27 +18,20 @@
     <layout>
       <region style="s1"
           xml:id="tbrlLeft"
-          tts:extent="30% 80%"
-          tts:position="left 5% center" />
-      <region style="s1"
-          xml:id="tbrlCenter"
-          tts:extent="30% 80%"
-          tts:position="center" />
+          tts:extent="10% 80%"
+          tts:position="left 20% center" />
       <region style="s1"
           xml:id="tbrlRight"
-          tts:extent="30% 80%"
-          tts:position="right 5% center" />
+          tts:extent="10% 80%"
+          tts:position="right 20% center" />
     </layout>
   </head>
   <body>
     <div begin="0s" end="1s">
       <p region="tbrlLeft">あい<span tts:textCombine="none">AB34</span>三四
       </p>
-      <p region="tbrlCenter">あい<span tts:textCombine="all">AB34</span>三四
+      <p region="tbrlRight">あい<span tts:textCombine="all">AB34</span>三四
       </p>
-      <!-- <p region="tbrlRight">あい
-        <span tts:textCombine="digits">AB34</span>三四
-      </p> -->
     </div>
   </body>
 </tt>
