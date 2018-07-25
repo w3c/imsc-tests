@@ -7,7 +7,7 @@
     ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
   <head>
     <metadata>
-      <ttm:desc>Basic ruby text</ttm:desc>
+      <ttm:desc>Ruby fallback delimiter</ttm:desc>
     </metadata>
     <layout>
       <region tts:displayAlign="center" tts:textAlign="center" tts:backgroundColor="black" xml:id="r1" tts:position="center center" tts:extent="40% 40%"/>
@@ -18,7 +18,7 @@
       <p begin="0s" end="1s">
         <span tts:ruby="container">
           <span tts:ruby="base">利用許諾</span>
-          <span tts:ruby="text">ライセンス</span>
+          <span tts:ruby="text"><span tts:ruby="delimiter">(</span>ライセンス<span tts:ruby="delimiter">)</span></span>
         </span>
       </p>
     </div>

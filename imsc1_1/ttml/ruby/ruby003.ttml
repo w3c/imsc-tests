@@ -7,19 +7,23 @@
     ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
   <head>
     <metadata>
-      <ttm:desc>Basic ruby text</ttm:desc>
+      <ttm:desc>Ruby annotations and line spacing</ttm:desc>
     </metadata>
     <layout>
-      <region tts:displayAlign="center" tts:textAlign="center" tts:backgroundColor="black" xml:id="r1" tts:position="center center" tts:extent="40% 40%"/>
+      <region tts:displayAlign="center" tts:textAlign="center" tts:backgroundColor="black" xml:id="r1" tts:position="center center" tts:extent="40% 80%"/>
     </layout>
   </head>
   <body>
     <div region="r1">
       <p begin="0s" end="1s">
+        Lorem ipsum
+        <br/>
         <span tts:ruby="container">
           <span tts:ruby="base">利用許諾</span>
           <span tts:ruby="text">ライセンス</span>
         </span>
+        <br/>
+        dolor sit amet
       </p>
     </div>
   </body>
