@@ -8,17 +8,13 @@
 
     <styling>
 
-      <style xml:id="s1" tts:showBackground="whenActive" tts:color="white" tts:textAlign="center" tts:displayAlign="center" tts:fontSize="75%"/>
-      
-       <style xml:id="s2" tts:shear="16.78842%" tts:textOutline="black 3%"/>
+      <style xml:id="s1" tts:showBackground="whenActive" tts:color="white" tts:writingMode="tbrl" tts:fontSize="150%"/>
 
     </styling>
 
     <layout>
 
-      <region style="s1" xml:id="horizontal" tts:extent="40% 90%" tts:origin="5% 5%"/>
-
-      <region style="s1" xml:id="vertical" tts:origin="55% 5%" tts:extent="40% 90%" tts:writingMode="tblr"/>
+      <region style="s1" xml:id="vertical" tts:origin="55% 5%" tts:extent="40% 90%"/>
 
     </layout>
 
@@ -26,18 +22,21 @@
 
   <body>
 
-    <div begin="0s" end="1s">
-    
-      <p region="horizontal" style="s2">
-        これは、私の新たな試みとして日本語字幕をつけてみました。
-      </p>
+    <div begin="0s" end="1s" tts:shear="16.67%" region="vertical">
 
-      <p region="vertical" style="s2">
-        これは、私の新たな試みとして日本語字幕をつけてみました。
+      <p tts:rubyAlign="spaceAround">
+        <span tts:ruby="container">
+          <span tts:ruby="baseContainer"><span tts:ruby="base">山</span></span>
+          <span tts:ruby="textContainer"><span tts:ruby="text">やま</span></span></span>の
+        <br/>
+        <span tts:ruby="container">
+         <span tts:ruby="baseContainer"><span tts:ruby="base">最多<span tts:textCombine="all">1998</span>年</span></span>
+         <span tts:ruby="textContainer"><span tts:ruby="text">ルビサンプル</span></span>
+        </span>
       </p>
 
     </div>
 
-</body>
+  </body>
 
 </tt>
