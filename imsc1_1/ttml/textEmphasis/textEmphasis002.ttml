@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tt xmlns:tt="http://www.w3.org/ns/ttml"
+<tt xml:lang="en"
+    xmlns:tt="http://www.w3.org/ns/ttml"
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
     xmlns="http://www.w3.org/ns/ttml"
     xmlns:tts="http://www.w3.org/ns/ttml#styling"
@@ -17,7 +18,7 @@
   <body>
     <div region="r1">
       <p begin="0s" end="1s">
-        <span tts:textEmphasis="filled circle">hello <span>bonjour</span></span>
+        <span tts:textEmphasis="filled circle">hello <span xml:lang="fr">bonjour</span></span>
       </p>
     </div>
   </body>

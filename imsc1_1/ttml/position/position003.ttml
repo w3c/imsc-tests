@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+<tt xml:lang="en" xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
   <head>
     <styling>
       <style xml:id="s1" tts:showBackground="whenActive" tts:color="white" tts:backgroundColor="black" tts:textAlign="center" tts:displayAlign="center"/>
