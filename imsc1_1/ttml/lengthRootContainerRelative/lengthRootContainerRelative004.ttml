@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text"
+    xml:lang="en">
+  <head>
+    <metadata>
+      <ttm:desc>#length-root-container-relative in padding</ttm:desc>
+    </metadata>
+    <layout>
+      <region xml:id="r1" tts:backgroundColor="black" tts:color="white" tts:extent="90rw 40rh" tts:position="center bottom 5rh" tts:padding="0rh 5rw 10rh 20rw"/>
+      <region xml:id="r2" tts:backgroundColor="black" tts:color="white" tts:extent="90rw 40rh" tts:position="center top 5rh" tts:padding="0rh 5rw 10rh 20rw" tts:displayAlign="after"/>
+    </layout>
+  </head>
+  <body>
+    <div region="r1">
+      <p begin="0s" end="1s" tts:backgroundColor="blue">
+        tts:padding="0rh 5rw 10rh 20rw"<br/>
+        tts:displayAlign="before"
+      </p>
+    </div>
+    <div region="r2">
+      <p begin="0s" end="1s" tts:backgroundColor="blue">
+        tts:padding="0rh 5rw 10rh 20rw"<br/>
+        tts:displayAlign="after"
+      </p>
+    </div>
+  </body>
+</tt>
