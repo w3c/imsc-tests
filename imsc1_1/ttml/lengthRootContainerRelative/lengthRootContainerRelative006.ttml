@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt:tt xmlns:tt="http://www.w3.org/ns/ttml"
+       xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+       xmlns="http://www.w3.org/ns/ttml"
+       xmlns:tts="http://www.w3.org/ns/ttml#styling"
+       xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+       ttp:profile="http://www.w3.org/ns/ttml/profile/imsc1/text"
+       xml:lang="en">
+  <head>
+    <metadata>
+      <ttm:desc>#length-root-container-relative in tts:textOutline</ttm:desc>
+    </metadata>
+  </head>
+  <body>
+    <div>
+      <p begin="0s" end="10s">
+        <span tts:fontSize="15rh" tts:textOutline="black 1.5rh">This text has a 10% outline that is black.</span>
+      </p>
+    </div>
+  </body>
+</tt:tt>

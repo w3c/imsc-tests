@@ -48,7 +48,7 @@
 
     <div>
     
-      <p region="top" begin="0s" end="3s" style="blue"  tts:rubyReserve="outside">
+      <p region="top" begin="0s" end="4s" style="blue"  tts:rubyReserve="outside">
       <span tts:ruby="container"><span tts:ruby="base">rubyReserve</span><span tts:ruby="text">default length</span></span><br/>
       <span tts:ruby="container"><span tts:ruby="base">rubyReserve</span><span tts:ruby="text">outside</span></span></p>
 
@@ -62,6 +62,10 @@
       
       <p region="bottom" begin="2s" end="3s" style="blue" tts:rubyReserve="outside 72px">
       <span tts:ruby="container"><span tts:ruby="base">rubyReserve</span><span tts:ruby="text">72px length</span></span><br/>
+      <span tts:ruby="container"><span tts:ruby="base">rubyReserve</span><span tts:ruby="text">outside</span></span></p>
+      
+      <p region="bottom" begin="3s" end="4s" style="blue" tts:rubyReserve="outside 6.7rh">
+      <span tts:ruby="container"><span tts:ruby="base">rubyReserve</span><span tts:ruby="text">6.7rh length</span></span><br/>
       <span tts:ruby="container"><span tts:ruby="base">rubyReserve</span><span tts:ruby="text">outside</span></span></p>
 
     </div>
