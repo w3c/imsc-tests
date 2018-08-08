@@ -6,6 +6,9 @@
 "path": "position/position002.ttml"
 },
 {
+"path": "position/position003.ttml"
+},
+{
 "path": "textCombine/textCombine001.ttml"
 },
 {
@@ -79,5 +82,23 @@
 },
 {
 "path": "image/image001.ttml"
+},
+{
+"path": "lengthRootContainerRelative/lengthRootContainerRelative001.ttml"
+},
+{
+"path": "lengthRootContainerRelative/lengthRootContainerRelative002.ttml"
+},
+{
+"path": "lengthRootContainerRelative/lengthRootContainerRelative003.ttml"
+},
+{
+"path": "lengthRootContainerRelative/lengthRootContainerRelative004.ttml"
+},
+{
+"path": "lengthRootContainerRelative/lengthRootContainerRelative005.ttml"
+},
+{
+"path": "lengthRootContainerRelative/lengthRootContainerRelative006.ttml"
 }
 ]
