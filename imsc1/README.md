@@ -1,9 +1,18 @@
 # IMSC1 Test suite
 
-The IMSC1 Test suite consists of TTML source files located under `./ttml`, and matching exemplar rendererings under
+The IMSC1 Test suite consists of TTML source files located under `./ttml`, and matching exemplar renderings under
 `./png`. 
 
-The exemplar renderings are generated using the [imscJS](https://github.com/sandflow/imscJS) library. The root container is mapped onto a 640x360 gray pixel array and each exemplar rendering corresponds to an ISD, with the media time (in seconds) of the ISD encoded in the file name.
+The exemplar renderings are generated using the [imscJS](https://github.com/sandflow/imscJS) library. The root
+container is mapped onto a 640x360 gray pixel array as specified in [Section 6.7.1 of IMSC1](https://www.w3.org/TR/ttml-imsc1.0.1/#ittp-aspectRatio). Note that:
+
+- the root container does not fill the pixel array in its entirety unless (i) `ittp:aspectRatio` is not specified, or
+(ii) `ittp:aspectRatio` is equal to the aspect ratio of the pixel array
+
+- the value of `tts:extent` on the `tt` element is not used to determine the portion of the pixel array occupied by
+the root container, but instead to determine the dimensions of a `px` unit relative to the root container
+
+Each exemplar rendering corresponds to an ISD, with the media time (in seconds) of the ISD encoded in the file name.
 
 The `./tests.json` file lists all tests.
 
