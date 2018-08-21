@@ -18,7 +18,7 @@
   <body>
     <div region="r1">
       <p begin="0s" end="1s">
-        <span tts:textEmphasis="white filled circle #000000">hello <span xml:lang="fr">bonjour</span></span>
+        <span tts:textEmphasis="white filled circle">hello <span xml:lang="fr">bonjour</span></span>
       </p>
     </div>
   </body>
