@@ -106,5 +106,19 @@
 },
 {
 "path": "lengthRootContainerRelative/lengthRootContainerRelative006.ttml"
+},
+{
+"path": "disparity/disparity001.ttml",
+"params": {"stereo3D" : "left"},
+"name" : "disparity001-left"
+},
+{
+"path": "disparity/disparity001.ttml",
+"params": {"stereo3D" : "right"},
+"name" : "disparity001-right"
+},
+{
+"path": "luminanceGain/luminanceGain001.ttml",
+"params": {"pqPixels" : true}
 }
 ]
