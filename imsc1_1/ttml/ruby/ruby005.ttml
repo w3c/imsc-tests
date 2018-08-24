@@ -15,7 +15,7 @@
     </layout>
   </head>
   <body>
-    <div region="r1" tts:fontSize="1c">
+    <div region="r1" tts:fontSize="6.667rh">
       <p begin="0s" end="1s">
         <span tts:ruby="container">
           <span tts:ruby="baseContainer"><span tts:ruby="base">base base base</span></span>
@@ -31,25 +31,25 @@
        <p begin="2s" end="3s">
         <span tts:ruby="container">
           <span tts:ruby="baseContainer"><span tts:ruby="base">base base base</span></span>
-          <span tts:ruby="textContainer"><span tts:ruby="text" tts:fontSize="1c">100% base font size</span></span>
+          <span tts:ruby="textContainer"><span tts:ruby="text" tts:fontSize="6.667rh">100% base font size</span></span>
         </span>
       </p>
       <p begin="3s" end="4s">
         <span tts:ruby="container">
           <span tts:ruby="base">base base base</span>
-          <span tts:ruby="text" tts:fontSize="1c">100% base font size</span>
+          <span tts:ruby="text" tts:fontSize="6.667rh">100% base font size</span>
         </span>
       </p>
       <p begin="4s" end="5s">
         <span tts:ruby="container">
           <span tts:ruby="baseContainer"><span tts:ruby="base">base base base</span></span>
-          <span tts:ruby="textContainer" tts:fontSize="2c"><span tts:ruby="text" tts:fontSize="1c">100% base font size</span></span>
+          <span tts:ruby="textContainer" tts:fontSize="13.333rh"><span tts:ruby="text" tts:fontSize="6.667rh">100% base font size</span></span>
         </span>
       </p>
        <p begin="5s" end="6s">
         <span tts:ruby="container">
           <span tts:ruby="baseContainer"><span tts:ruby="base">base base base</span></span>
-          <span tts:ruby="textContainer" tts:fontSize="1c"><span tts:ruby="text">100% base font size</span></span>
+          <span tts:ruby="textContainer" tts:fontSize="6.667rh"><span tts:ruby="text">100% base font size</span></span>
         </span>
       </p>
     </div>
