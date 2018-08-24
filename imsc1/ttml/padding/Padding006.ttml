@@ -13,7 +13,7 @@
           <style tts:textAlign="left"/>
           <style tts:padding="2em"/>
           <style tts:backgroundColor="blue" />
-          <style tts:fontSize="80%" />
+          <style tts:fontSize="70%" />
       </tt:region>
     </layout>
   </head>
