@@ -10,9 +10,10 @@
     
     <layout>
       <tt:region tts:extent="200px 100px" xml:id="r1">
-	<style tts:textAlign="left"/>
-	<style tts:padding="20%"/>
-  <style tts:backgroundColor="blue" />
+        <style tts:textAlign="left"/>
+        <style tts:padding="20%"/>
+        <style tts:backgroundColor="blue" />
+        <style tts:fontSize="70%" />
       </tt:region>
     </layout>
   </head>
