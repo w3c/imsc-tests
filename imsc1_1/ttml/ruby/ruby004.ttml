@@ -19,7 +19,7 @@
       <p begin="0s" end="1s">
         <span tts:ruby="container">
           <span tts:ruby="base">利用許諾</span>
-          <span tts:ruby="text"><span tts:ruby="delimiter">(</span>ライセンス<span tts:ruby="delimiter">)</span></span>
+          <span tts:ruby="delimiter">(</span><span tts:ruby="text">ライセンス</span><span tts:ruby="delimiter">)</span>
         </span>
       </p>
     </div>
