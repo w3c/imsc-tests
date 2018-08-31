@@ -11,13 +11,13 @@
       <ttm:desc>#length-root-container-relative in region extent and origin</ttm:desc>
     </metadata>
     <layout>
-      <region xml:id="r1" tts:backgroundColor="black" tts:color="white" tts:origin="50rw 50rh" tts:extent="50rw 50rh"/>
+      <region xml:id="r1" tts:backgroundColor="black" tts:color="white" tts:extent="50rw 50rh"/>
     </layout>
   </head>
   <body>
     <div region="r1">
       <p begin="0s" end="1s">
-        tts:origin="50rw 50rh"<br/>tts:extent="50rw 50rh"
+        tts:extent="50rw 50rh"
       </p>
     </div>
   </body>
