@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text"
+    xml:lang="en">
+  <head>
+    <metadata>
+      <ttm:desc>#length-root-container-relative in line height</ttm:desc>
+    </metadata>
+    <layout>
+      <region xml:id="r1" tts:backgroundColor="black" tts:color="white" tts:extent="50rw 100rh" tts:fontSize="5rh"/>
+    </layout>
+  </head>
+  <body>
+    <div region="r1">
+      <p begin="0s" end="1s" tts:lineHeight="7rh">
+        lineHeight="7rh"<br/>lineHeight="7rh"<br/>lineHeight="7rh"
+      </p>
+      <p begin="0s" end="1s" tts:lineHeight="14rh">
+        lineHeight="14rh"<br/>lineHeight="14rh"<br/>lineHeight="14rh"
+      </p>
+    </div>
+  </body>
+</tt>

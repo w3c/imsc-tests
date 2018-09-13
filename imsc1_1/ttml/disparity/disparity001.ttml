@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+  <head>
+    <metadata>
+      <ttm:desc>Disparity test</ttm:desc>
+    </metadata>
+    <layout>
+      <region tts:displayAlign="center" tts:backgroundColor="black" tts:color="white" tts:textAlign="center" xml:id="r1" tts:position="bottom 20% center" tts:extent="80% 20%" tts:disparity="2%"/>
+    </layout>
+  </head>
+  <body>
+    <div region="r1">
+      <p begin="0s" end="1s">
+        Disparity of 2%
+      </p>
+    </div>
+  </body>
+</tt>

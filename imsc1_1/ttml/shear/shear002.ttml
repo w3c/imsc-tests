@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="ja"
+    xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+  <head>
+
+    <styling>
+
+      <style xml:id="s1" tts:showBackground="whenActive" tts:color="white" tts:backgroundColor="black" tts:textAlign="center" tts:displayAlign="center"/>
+
+    </styling>
+
+    <layout>
+
+      <region style="s1" xml:id="horizontal" tts:extent="40% 60%" tts:origin="5% 5%" />
+
+      <region style="s1" xml:id="vertical" tts:origin="55% 5%" tts:extent="40% 60%" tts:writingMode="tblr"/>
+
+    </layout>
+
+  </head>
+
+  <body>
+
+    <div begin="0s" end="1s">
+    
+      <p region="horizontal" tts:shear="16.78842%">
+        <span tts:ruby="container">
+          <span tts:ruby="base">利用許諾</span>
+          <span tts:ruby="text">ライセンス</span>
+        </span>
+      </p>
+
+      <p region="vertical" tts:shear="16.78842%">
+        あい<span tts:textCombine="all">34</span>三四
+      </p>
+
+    </div>
+
+</body>
+
+</tt>

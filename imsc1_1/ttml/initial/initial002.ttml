@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns:tt="http://www.w3.org/ns/ttml"
+xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+xmlns="http://www.w3.org/ns/ttml"
+xmlns:tts="http://www.w3.org/ns/ttml#styling"
+ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+  <head>
+
+    <styling>
+
+      <initial tts:color="green" tts:fontStyle="italic"/>
+      
+      <style xml:id="yellow" tts:color="yellow" tts:fontStyle="normal"/>
+
+    </styling>
+
+    <layout>
+
+      <region xml:id="r1" tts:extent="60% 60%" tts:origin="20% 20%" tts:backgroundColor="black" tts:displayAlign="center" tts:textAlign="center"/>
+
+    </layout>
+
+  </head>
+
+  <body region="r1">
+
+    <div>
+
+      <p begin="0s" end="1s">Text should be green and italic</p>
+
+      <p begin="1s" end="2s" style="yellow">Text should be yellow and not italic</p>
+    </div>
+
+  </body>
+
+</tt>

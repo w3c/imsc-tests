@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="ja"
+    xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+  <head>
+
+    <styling>
+
+      <style xml:id="s1" tts:showBackground="whenActive" tts:color="white" tts:writingMode="tbrl" tts:fontSize="150%"/>
+
+    </styling>
+
+    <layout>
+
+      <region style="s1" xml:id="vertical" tts:origin="55% 5%" tts:extent="40% 90%"/>
+
+    </layout>
+
+  </head>
+
+  <body>
+
+    <div begin="0s" end="1s" tts:shear="16.67%" region="vertical">
+
+      <p tts:rubyAlign="spaceAround">
+        <span tts:ruby="container">
+          <span tts:ruby="baseContainer"><span tts:ruby="base">山</span></span>
+          <span tts:ruby="textContainer"><span tts:ruby="text">やま</span></span></span>の
+        <br/>
+        <span tts:ruby="container">
+         <span tts:ruby="baseContainer"><span tts:ruby="base">最多<span tts:textCombine="all">1998</span>年</span></span>
+         <span tts:ruby="textContainer"><span tts:ruby="text">ルビサンプル</span></span>
+        </span>
+      </p>
+
+    </div>
+
+  </body>
+
+</tt>
