@@ -825,5 +825,8 @@
 },
 {
 "path": "zIndex/ZIndex001.ttml"
+},
+{
+"path": "misc/unicode-surrogate-pairs.ttml"
 }
 ]
