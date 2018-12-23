@@ -1,6 +1,6 @@
 # Dual-License for W3C Test Suites
 
-All documents in this Repository are licensed by contributors to be distributed under both the [W3C Test Suite License](#w3c-test-suite-license) and the [W3C 3-clause BSD License](#w3c-3-clause-bsd-license), reproduced below. The choice of license is up to the licensee. For more information, see [Licenses for W3C Test Suites](https://www.w3.org/Consortium/Legal/2008/04-testsuite-copyright.html)
+Unless another compatible license is present in the documents themselves, all documents in this Repository are licensed by contributors to be distributed under both the [W3C Test Suite License](#w3c-test-suite-license) and the [W3C 3-clause BSD License](#w3c-3-clause-bsd-license), reproduced below. The choice of license is up to the licensee. For more information, see [Licenses for W3C Test Suites](https://www.w3.org/Consortium/Legal/2008/04-testsuite-copyright.html)
 
 # W3C Test Suite License
 
