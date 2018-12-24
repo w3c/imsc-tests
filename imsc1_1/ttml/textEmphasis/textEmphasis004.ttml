@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="ja"
+    xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+  <head>
+    <styling>
+      <style xml:id="s1"
+          tts:displayAlign="center"
+          tts:textAlign="center"
+          tts:backgroundColor="black"
+          tts:position="center center"
+          tts:showBackground="whenActive"
+          tts:extent="80% 80%"/>
+    </styling>
+    <layout>
+      <region xml:id="tbrl"
+          style="s1"
+          tts:writingMode="tbrl"/>
+      <region xml:id="tblr"
+          style="s1"
+          tts:writingMode="tblr"/>
+      <region xml:id="lrtb"
+          style="s1"
+          tts:writingMode="lrtb"/>
+      <region xml:id="rltb"
+          style="s1"
+          tts:writingMode="rltb"/>
+    </layout>
+  </head>
+  <body>
+    <div>
+      <p begin="0s" end="1s" region="tbrl">
+        tbrl <span tts:textEmphasis="filled circle before">before</span>
+        <br/>
+        tbrl <span tts:textEmphasis="filled circle after">after</span>
+      </p>
+      <p begin="1s" end="2s" region="tblr">
+        tblr <span tts:textEmphasis="filled circle before">before</span>
+        <br/>
+        tblr <span tts:textEmphasis="filled circle after">after</span>
+      </p>
+      <p begin="2s" end="3s" region="lrtb">
+        lrtb <span tts:textEmphasis="filled circle before">before</span>
+        <br/>
+        lrtb <span tts:textEmphasis="filled circle after">after</span>
+      </p>
+      <p begin="3s" end="4s" region="rltb">
+        rltb <span tts:textEmphasis="filled circle before">before</span>
+        <br/>
+        rltb <span tts:textEmphasis="filled circle after">after</span>
+      </p>
+    </div>
+  </body>
+</tt>
