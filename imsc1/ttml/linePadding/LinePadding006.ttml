@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt:tt xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ebutts="urn:ebu:tt:style"
+    xmlns="http://www.w3.org/ns/ttml" 
+    xmlns:tts="http://www.w3.org/ns/ttml#styling" 
+    ttp:profile="http://www.w3.org/ns/ttml/profile/imsc1/text"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xml:lang="en">
+    <head>
+        <styling>
+            <style xml:id="paragraphStyle" tts:textAlign="start" tts:lineHeight="135%" ebutts:linePadding="1c" />
+            <style xml:id="spanStyle" tts:backgroundColor="#00000099" tts:color="#FFFFFF" tts:fontFamily="sans-serif" tts:fontSize="100%" />
+        </styling>
+    </head>
+    <body>
+        <div>
+            <p begin="00:00:02.459" end="00:00:02.726" xml:id="sub_5" style="paragraphStyle">
+
+                <span style="spanStyle">Lorem ipsum dolor sit amet, consectetur</span>
+
+                <br/>
+
+                <span style="spanStyle">adipiscing elit</span>
+
+            </p>
+        </div>
+    </body>
+</tt:tt>
