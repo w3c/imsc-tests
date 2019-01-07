@@ -828,5 +828,8 @@
 },
 {
 "path": "zIndex/ZIndex001.ttml"
+},
+{
+"path": "misc/unicode-non-bmp-character.ttml"
 }
 ]
