@@ -8,7 +8,7 @@
     xml:lang="en">
     <head>
         <styling>
-            <style xml:id="paragraphStyle" tts:textAlign="start" tts:lineHeight="135%" ebutts:linePadding="0.2c" />
+            <style xml:id="paragraphStyle" tts:textAlign="start" tts:lineHeight="135%" ebutts:linePadding="1c" />
             <style xml:id="spanStyle" tts:backgroundColor="#00000099" tts:color="#FFFFFF" tts:fontFamily="sans-serif" tts:fontSize="100%" />
         </styling>
     </head>
