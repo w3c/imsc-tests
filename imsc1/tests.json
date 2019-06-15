@@ -831,5 +831,8 @@
 },
 {
 "path": "misc/unicode-non-bmp-character.ttml"
+},
+{
+"path": "region/region-timing.ttml"
 }
 ]
