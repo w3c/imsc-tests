@@ -11,20 +11,31 @@
       <ttm:desc>Character style applicability</ttm:desc>
     </metadata>
     <layout>
-      <region tts:displayAlign="center" tts:textAlign="center" tts:backgroundColor="black" xml:id="r1" tts:position="center center" tts:extent="60% 40%"/>
+      <region tts:displayAlign="center" tts:textAlign="center" tts:backgroundColor="black" xml:id="r1" tts:position="center bottom 10%" tts:extent="60% 30%"/>
+      <region tts:displayAlign="center" tts:textAlign="center" tts:backgroundColor="black" xml:id="r2" tts:position="center top 10%" tts:extent="60% 30%"/>
     </layout>
   </head>
   <body>
-    <div region="r1">
-      <p begin="0s" end="1s">
-				<span tts:ruby="container" tts:textDecoration="underline">
-				 <span tts:ruby="baseContainer">
-					<span tts:ruby="base">single underline</span>
-				 </span>
-				 <span tts:ruby="textContainer">
-					<span tts:ruby="text">single underline</span>
-				 </span>
-				</span>
+    <div >
+      <p begin="0s" end="1s" region="r1">
+        <span tts:ruby="container" tts:textDecoration="underline">
+          <span tts:ruby="baseContainer">
+            <span tts:ruby="base">single underline</span>
+          </span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text">single underline</span>
+          </span>
+        </span>
+      </p>
+      <p begin="0s" end="1s" region="r2">
+        <span tts:ruby="container" tts:textDecoration="underline" xml:space="preserve">
+          <span tts:ruby="baseContainer">
+            <span tts:ruby="base">single underline</span>
+          </span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text">single underline</span>
+          </span>
+        </span>
       </p>
     </div>
   </body>
