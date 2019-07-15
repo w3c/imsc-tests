@@ -18,7 +18,7 @@
   <body>
     <div >
       <p begin="0s" end="1s" region="r1">
-        <span tts:ruby="container" tts:textDecoration="underline">
+        <span tts:ruby="container" tts:textDecoration="underline" xml:space="default">
           <span tts:ruby="baseContainer">
             <span tts:ruby="base">single underline</span>
           </span>
