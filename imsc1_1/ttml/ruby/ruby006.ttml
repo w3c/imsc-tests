@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="ja"
+    xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+  <head>
+    <metadata>
+      <ttm:desc>Character style applicability</ttm:desc>
+    </metadata>
+    <layout>
+      <region tts:displayAlign="center" tts:textAlign="center" tts:backgroundColor="black" xml:id="r1" tts:position="center bottom 10%" tts:extent="60% 30%"/>
+      <region tts:displayAlign="center" tts:textAlign="center" tts:backgroundColor="black" xml:id="r2" tts:position="center top 10%" tts:extent="60% 30%"/>
+    </layout>
+  </head>
+  <body>
+    <div >
+      <p begin="0s" end="1s" region="r1">
+        <span tts:ruby="container" tts:textDecoration="underline" xml:space="default">
+          <span tts:ruby="baseContainer">
+            <span tts:ruby="base">single underline</span>
+          </span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text">single underline</span>
+          </span>
+        </span>
+      </p>
+      <p begin="0s" end="1s" region="r2">
+        <span tts:ruby="container" tts:textDecoration="underline" xml:space="preserve">
+          <span tts:ruby="baseContainer">
+            <span tts:ruby="base">single underline</span>
+          </span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text">single underline</span>
+          </span>
+        </span>
+      </p>
+    </div>
+  </body>
+</tt>
