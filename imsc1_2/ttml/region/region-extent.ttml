@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en"
+	xmlns="http://www.w3.org/ns/ttml"
+	xmlns:ttp="http://www.w3.org/ns/ttml#parameter" 
+	xmlns:tts="http://www.w3.org/ns/ttml#styling"
+ ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.2/text"
+  >
+  <head>
+    <styling>
+      <style xml:id="s2" tts:extent="80% 20%"/>
+      <style xml:id="s3" style="s2"/>
+    </styling>
+    <layout>
+      <region xml:id="r1" tts:showBackground="whenActive" tts:backgroundColor="black" tts:origin="5% 5%" tts:extent="80% 20%"/>
+      <region xml:id="r2" tts:showBackground="whenActive" tts:backgroundColor="blue" style="s2" tts:origin="5% 5%"/>
+      <region xml:id="r3" tts:showBackground="whenActive" tts:backgroundColor="red" style="s3" tts:origin="5% 5%"/>
+      <region xml:id="r4" tts:showBackground="whenActive" tts:backgroundColor="green" tts:origin="5% 5%">
+        <style tts:extent="80% 20%"/>
+      </region>
+    </layout>
+  </head>
+ <body>
+   <div>
+     <p region="r1" begin="0s" end="1s">Region with tts:origin="5% 5%" and tts:extent="80% 20%"</p>
+     <p region="r2" begin="1s" end="2s">Region with tts:origin="5% 5%" and tts:extent="80% 20%"</p>
+     <p region="r3" begin="2s" end="3s">Region with tts:origin="5% 5%" and tts:extent="80% 20%"</p>
+     <p region="r4" begin="3s" end="4s">Region with tts:origin="5% 5%" and tts:extent="80% 20%"</p>
+   </div>
+ </body>
+</tt>
