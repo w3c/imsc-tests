@@ -33,24 +33,28 @@
   <body>
     <div>
       <p begin="0s" end="1s" region="tbrl">
+        <br/>
         tbrl <span tts:textEmphasis="filled circle before">before</span>
       </p>
       <p begin="1s" end="2s" region="tbrl">
         tbrl <span tts:textEmphasis="filled circle after">after</span>
       </p>
       <p begin="2s" end="3s" region="tblr">
+        <br/>
         tblr <span tts:textEmphasis="filled circle before">before</span>
       </p>
       <p begin="3s" end="4s" region="tblr">
         tblr <span tts:textEmphasis="filled circle after">after</span>
       </p>
       <p begin="4s" end="5s" region="lrtb">
+        <br/>
         lrtb <span tts:textEmphasis="filled circle before">before</span>
       </p>
       <p begin="5s" end="6s" region="lrtb">
         lrtb <span tts:textEmphasis="filled circle after">after</span>
       </p>
       <p begin="6s" end="7s" region="rltb">
+        <br/>
         rltb <span tts:textEmphasis="filled circle before">before</span>
       </p>
       <p begin="7s" end="8s" region="rltb">
