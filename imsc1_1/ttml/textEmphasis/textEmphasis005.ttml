@@ -9,7 +9,9 @@
     ttp:displayAspectRatio="16 9"
     ttp:timeBase="media">
   <head>
-    <metadata/>
+    <metadata>
+      <ttm:desc>Tests tts:textEmphasis="auto" value</ttm:desc>
+    </metadata>
     <styling>
       <style xml:id="style.center"
              tts:fontFamily="proportionalSansSerif"
@@ -17,7 +19,7 @@
              tts:fontStyle="normal"
              tts:fontWeight="normal"
              tts:backgroundColor="transparent"
-             tts:color="#DCDCDC"
+             tts:color="white"
              tts:textOutline="black 4%"
              tts:textAlign="center"/>
       <style xml:id="style.left"
@@ -26,7 +28,7 @@
              tts:fontStyle="normal"
              tts:fontWeight="normal"
              tts:backgroundColor="transparent"
-             tts:color="#DCDCDC"
+             tts:color="#white"
              tts:textOutline="black 4%"
              tts:textAlign="left"/>
     </styling>
@@ -35,15 +37,13 @@
               tts:displayAlign="after"
               tts:backgroundColor="transparent"
               tts:origin="5% 50%"
-              tts:extent="90% 45%"
-              tts:luminanceGain="3.0"/>
+              tts:extent="90% 45%"/>
       <region xml:id="region.vertical.after"
               tts:displayAlign="after"
               tts:backgroundColor="transparent"
               tts:origin="5% 5%"
               tts:extent="45% 90%"
-              tts:writingMode="tbrl"
-              tts:luminanceGain="3.0"/>
+              tts:writingMode="tbrl"/>
     </layout>
   </head>
   <body>
