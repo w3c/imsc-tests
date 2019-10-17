@@ -28,7 +28,7 @@
              tts:fontStyle="normal"
              tts:fontWeight="normal"
              tts:backgroundColor="transparent"
-             tts:color="#white"
+             tts:color="white"
              tts:textOutline="black 4%"
              tts:textAlign="left"/>
     </styling>
