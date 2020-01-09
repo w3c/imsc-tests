@@ -11,7 +11,7 @@
       <ttm:desc>tts:luminanceGain</ttm:desc>
     </metadata>
     <layout>
-      <region tts:displayAlign="center" tts:backgroundColor="black" tts:color="white" tts:textAlign="center" xml:id="r1" tts:luminanceGain="4"/>
+      <region tts:displayAlign="center" tts:backgroundColor="black" tts:color="white" tts:textAlign="center" tts:extent="100% 100%" xml:id="r1" tts:luminanceGain="4"/>
     </layout>
   </head>
   <body>
