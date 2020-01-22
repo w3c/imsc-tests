@@ -27,15 +27,15 @@
       <p xml:id="subtitle1" style="paragraphStyle">
         <span style="spanStyle">Paragraph 1</span>
       </p>
-      <p xml:id="subtitle1" style="paragraphStyle">
+      <p xml:id="subtitle2" style="paragraphStyle">
         <span style="spanStyle">Paragraph 2</span>
       </p>
     </div>
     <div region="top" begin="00:00:00.000" end="00:00:30.000">
-      <p xml:id="subtitle1" style="paragraphStyleNoGap">
+      <p xml:id="subtitle3" style="paragraphStyleNoGap">
         <span style="spanStyle">Paragraph 1</span>
       </p>
-      <p xml:id="subtitle1" style="paragraphStyleNoGap">
+      <p xml:id="subtitle4" style="paragraphStyleNoGap">
         <span style="spanStyle">Paragraph 2</span>
       </p>
     </div>

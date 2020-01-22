@@ -4,13 +4,14 @@
     xmlns="http://www.w3.org/ns/ttml"
     xmlns:tts="http://www.w3.org/ns/ttml#styling"
     xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
-    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text"
+    xml:lang="en">
   <head>
     <metadata>
       <ttm:desc>tts:luminanceGain</ttm:desc>
     </metadata>
     <layout>
-      <region tts:displayAlign="center" tts:backgroundColor="black" tts:color="white" tts:textAlign="center" xml:id="r1" tts:luminanceGain="4"/>
+      <region tts:displayAlign="center" tts:backgroundColor="black" tts:color="white" tts:textAlign="center" tts:extent="100% 100%" xml:id="r1" tts:luminanceGain="4"/>
     </layout>
   </head>
   <body>
