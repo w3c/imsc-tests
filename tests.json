@@ -1,0 +1,1617 @@
+[
+    {
+        "path": "imsc1/ttml/activeArea/ActiveArea001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/animation/Animation001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/animation/Animation002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/animation/Animation003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/animation/Animation004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/animation/Animation007.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/animation/Animation008.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/animation/Animation012.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/animation/Animation013.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/animation/Animation014.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/animation/Animation015.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/animation/Animation016.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/animation/Animation017.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/animation/Animation018.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/backgroundColor/BackgroundColor001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/backgroundColor/BackgroundColor002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/backgroundColor/BackgroundColor003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/backgroundColor/BackgroundColor004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/backgroundColor/BackgroundColor005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/backgroundColor/BackgroundColor006.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/backgroundColor/BackgroundColor007.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/backgroundColor/BackgroundColor008.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/backgroundColor/BackgroundColor009.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/backgroundColor/BackgroundColor010.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/backgroundColor/backgroundColor-region-p-span-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/backgroundColor/backgroundColor-region-p-span-002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/backgroundColor/backgroundcolor-rgba-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTimeContainment001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTimeContainment002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTimeContainment003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTimeContainment004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTiming001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTiming002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTiming003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTiming005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTiming006.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTiming007.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTiming008.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTiming010.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTiming011.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BasicTiming012.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BeginDur001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BeginEnd001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BeginEnd002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/BeginEnd003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/TimeExpressions001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/br/Br001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/br/br-in-p-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/br/br-in-span-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/cellResolution/cellresolution-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/color/Color001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/color/Color002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/color/Color003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/color/Color004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/color/Color005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/color/Color007.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/color/Color008.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/color/Color009.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/div/content-in-multiple-div-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/misc/cumulative-rows-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/misc/cumulative-rows-002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/misc/cumulative-words-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/misc/cumulative-words-002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/direction/Direction001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/direction/Direction002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/direction/Direction003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/direction/Direction004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/direction/Direction005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/direction/Direction006.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/display/Display001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/display/Display002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/display/Display004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/displayAlign/DisplayAlign001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/displayAlign/DisplayAlign002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/displayAlign/DisplayAlign003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/displayAlign/DisplayAlign004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/displayAlign/displayalign-after-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/displayAlign/displayalign-before-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/displayAlign/displayalign-center-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/div/Div001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/div/Div002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/div/Div003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/document/DocumentExample120.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/document/DocumentExample822.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/document/DocumentExample823.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/document/DocumentExample824.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/document/DocumentExample825.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/extent/Extent001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/extent/Extent002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/FixedBeginEnd002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fillLineGap/FillLineGap001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fillLineGap/FillLineGap002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fillLineGap/FillLineGap003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fillLineGap/FillLineGap004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontFamily/FontFamily001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontFamily/FontFamily002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontFamily/FontFamily003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontFamily/FontFamily004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontFamily/FontFamily005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontFamily/FontFamily006.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontFamily/FontFamily007.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontFamily/FontFamily008.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontFamily/FontFamily009.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontSize/fontsize-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontSize/FontSize001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontSize/FontSize002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontSize/FontSize004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontStyle/FontStyle001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontStyle/FontStyle002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontStyle/FontStyle003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontStyle/font-style-normal-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontWeight/font-weight-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontWeight/FontWeight001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontWeight/FontWeight002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/fontWeight/font-weight-normal-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/foreign/Foreign001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/foreign/foreign-namespace-in-header-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/foreign/foreign-namespace-in-p-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/region/four-active-regions-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/styling/idrefs-style-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/cellResolution/initial-value-cellresolution-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/lineHeight/lineheight-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/lineHeight/LineHeight001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/lineHeight/LineHeight002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/lineHeight/LineHeight003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/lineHeight/LineHeight006.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/linePadding/linepadding-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/MediaParTiming001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/MediaParTiming002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/MediaParTiming003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/MediaSeqTiming001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/MediaSeqTiming002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/MediaSeqTiming003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/MediaSeqTiming004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/MediaSeqTiming005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/MediaSeqTiming006.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/MediaSeqTiming007.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/multiRowAlign/multirow-align-center-auto-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/multiRowAlign/multirow-align-center-center-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/multiRowAlign/multirow-align-center-end-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/multiRowAlign/multirow-align-center-start-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/multiRowAlign/multirow-align-end-center-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/multiRowAlign/multirow-align-end-start-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/multiRowAlign/multirow-align-start-center-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/multiRowAlign/multirow-align-start-end-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/region/mutiple-regions-sequence-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/opacity/Opacity001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/opacity/Opacity002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/opacity/Opacity003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/opacity/Opacity004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/origin/Origin001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/origin/Origin002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/overflow/Overflow001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/overflow/Overflow002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/overflow/Overflow003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/overflow/Overflow004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/overflow/Overflow005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/overflow/overflow-hidden-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/overflow/overflow-visible-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/padding/Padding001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/padding/Padding002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/padding/Padding003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/padding/Padding004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/padding/Padding006.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/padding/Padding007.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/padding/padding-four-values-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/padding/padding-one-value-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/padding/padding-three-values-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/padding/padding-two-values-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/p/Paragraph001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/p/Paragraph002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/p/Paragraph003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/p/Paragraph004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/p/Paragraph005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/foreign/Parameters006.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/showBackground/ShowBackground001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/showBackground/ShowBackground002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/space/space-preserve-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/span/Span001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/span/Span002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/span/Span003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/span/Span004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/span/Span005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/misc/special-character-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/styling/Style001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/styling/styleInheritance-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/styling/Styling001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textAlign/TextAlign001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textAlign/TextAlign002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textAlign/TextAlign003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textAlign/TextAlign004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textAlign/TextAlign005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textAlign/TextAlign006.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textAlign/textalign-center-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textAlign/textalign-end-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textAlign/textalign-left-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textAlign/textalign-right-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textAlign/textalign-start-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/TextDecoration001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/TextDecoration002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/TextDecoration003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/TextDecoration004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/TextDecoration005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/TextDecoration006.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/TextDecoration007.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/TextDecoration008.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/TextDecoration009.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/TextDecoration010.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/TextDecoration011.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/TextDecoration012.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/TextDecoration013.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textDecoration/text-decoration-none-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textOutline/TextOutline001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textOutline/TextOutline002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textOutline/TextOutline004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/textOutline/TextOutline005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/timing-on-span-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/timing/timing-on-span-002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/tt/Tt001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/tt/Tt002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/tt/Tt003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/unicodeBidi/UnicodeBidi001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/unicodeBidi/UnicodeBidi002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/unicodeBidi/UnicodeBidi003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/unicodeBidi/UnicodeBidi005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/unicodeBidi/unicode-bidi-embed-direction-ltr-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/unicodeBidi/unicode-bidi-embed-direction-rtl-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/unicodeBidi/unicode-bidi-override-direction-rtl-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/visibility/Visibility001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/visibility/Visibility002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/visibility/Visibility003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/wrap/WrapOption001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/wrap/WrapOption002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/wrap/WrapOption003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/wrap/WrapOption004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/wrap/WrapOption005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/wrap/wrapoption-nowrap-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/wrap/wrapoption-wrap-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/WritingMode001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/WritingMode002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/WritingMode003.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/WritingMode004.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/WritingMode005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/WritingMode006.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/WritingMode007.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/WritingMode008.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/WritingMode009.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/WritingMode010.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/writing-mode-lr-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/writing-mode-lrtb-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/writing-mode-rl-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/writing-mode-rltb-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/writing-mode-tb-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/writingMode/writing-mode-tbrl-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/referenceFonts/referenceFonts1.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "name": "forcedDisplay1-forced",
+        "params": {
+            "displayForcedOnlyMode": true
+        },
+        "path": "imsc1/ttml/forcedDisplay/forcedDisplay1.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/forcedDisplay/forcedDisplay1.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/altText/altText1.ttml",
+        "spec_version": "1",
+        "text_profile": false
+    },
+    {
+        "path": "imsc1/ttml/linePadding/linePadding1.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/linePadding/linePadding2.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/linePadding/linePadding3.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/linePadding/linePadding4.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/linePadding/LinePadding005.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/linePadding/LinePadding006.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/multiRowAlign/multiRowAlign1.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/progressivelyDecodable/progressivelyDecodable1.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/aspectRatio/aspectRatio1.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/aspectRatio/aspectRatio2.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/aspectRatio/aspectRatio3.ttml",
+        "spec_version": "1",
+        "text_profile": false
+    },
+    {
+        "path": "imsc1/ttml/aspectRatio/aspectRatio4.ttml",
+        "spec_version": "1",
+        "text_profile": false
+    },
+    {
+        "path": "imsc1/ttml/aspectRatio/aspectRatio5.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/aspectRatio/aspectRatio6.ttml",
+        "spec_version": "1",
+        "text_profile": false
+    },
+    {
+        "path": "imsc1/ttml/region/nested-region-001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/structure/Structure001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/structure/Structure002.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/zIndex/ZIndex001.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/misc/unicode-non-bmp-character.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1/ttml/region/region-timing.ttml",
+        "spec_version": "1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/position/position001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/position/position002.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/position/position003.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/textCombine/textCombine001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/textShadow/textShadow001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/displayAspectRatio/displayAspectRatio001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/displayAspectRatio/displayAspectRatio002.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/displayAspectRatio/displayAspectRatio003.ttml",
+        "spec_version": "1.1",
+        "text_profile": false
+    },
+    {
+        "path": "imsc1_1/ttml/displayAspectRatio/displayAspectRatio004.ttml",
+        "spec_version": "1.1",
+        "text_profile": false
+    },
+    {
+        "path": "imsc1_1/ttml/shear/shear001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/shear/shear002.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/shear/shear003.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/ruby/ruby001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/ruby/ruby002.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/ruby/ruby003.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/ruby/ruby004.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/ruby/ruby005.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/ruby/ruby006.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/rubyAlign/rubyAlign001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/rubyAlign/rubyAlign002.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/rubyAlign/rubyAlign003.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/rubyAlign/rubyAlign004.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/textEmphasis/textEmphasis001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/textEmphasis/textEmphasis002.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/textEmphasis/textEmphasis003.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/textEmphasis/textEmphasis004.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/rubyReserve/rubyReserve001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/rubyReserve/rubyReserve002.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/rubyReserve/rubyReserve003.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/initial/initial001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/initial/initial002.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/image/image001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/lengthRootContainerRelative/lengthRootContainerRelative001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/lengthRootContainerRelative/lengthRootContainerRelative002.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/lengthRootContainerRelative/lengthRootContainerRelative003.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/lengthRootContainerRelative/lengthRootContainerRelative004.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/lengthRootContainerRelative/lengthRootContainerRelative005.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_1/ttml/lengthRootContainerRelative/lengthRootContainerRelative006.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "name": "disparity001-left",
+        "params": {
+            "stereo3D": "left"
+        },
+        "path": "imsc1_1/ttml/disparity/disparity001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "name": "disparity001-right",
+        "params": {
+            "stereo3D": "right"
+        },
+        "path": "imsc1_1/ttml/disparity/disparity001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "params": {
+            "pqPixels": true
+        },
+        "path": "imsc1_1/ttml/luminanceGain/luminanceGain001.ttml",
+        "spec_version": "1.1",
+        "text_profile": true
+    },
+    {
+        "path": "imsc1_2/ttml/region/region-extent.ttml",
+        "spec_version": "1.2",
+        "text_profile": true
+    }
+]
