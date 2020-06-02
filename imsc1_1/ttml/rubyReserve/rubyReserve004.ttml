@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tt xml:lang="ja" xmlns="http://www.w3.org/ns/ttml" ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" ttp:frameRate="24" ttp:frameRateMultiplier="1000 1001" ttp:tickRate="10000000" xmlns:ebutts="urn:ebu:tt:style" xmlns:itts="http://www.w3.org/ns/ttml/profile/imsc1#styling" xmlns:ittp="http://www.w3.org/ns/ttml/profile/imsc1#parameter" xmlns:ittm="http://www.w3.org/ns/ttml/profile/imsc1#metadata">
+	<head>
+		<styling>
+			<initial tts:color="white" tts:fontFamily="proportionalSansSerif" tts:fontSize="100%" xml:id="initialStyles"/>
+		</styling>
+		<layout>
+			<!-- General Horiztonal Positioning with ebutts:multiRowAlign -->
+			<region ebutts:multiRowAlign="start" tts:displayAlign="after" tts:extent="80.000% 80.000%" tts:origin="10.000% 10.000%" tts:rubyReserve="outside" tts:textAlign="center" xml:id="bottom-left-justified"/>
+			
+            <!-- Descriptive Region -->
+			<region tts:displayAlign="before" tts:extent="80.000% 80.000%" tts:origin="10.000% 10.000%" tts:textAlign="center" xml:id="top-center-justified"/>
+		</layout>
+	</head>
+	<body>
+		<div>
+		    <p begin="100000000t" dur="40000000t" region="top-center-justified">RubyReserve Test</p>
+		    <!-- 2-line event with rubyReserve invoked-->
+			<p begin="100000000t" dur="20000000t" region="bottom-left-justified">Humpty Dumpty sat on a wall<br/>Humpty Dumpty had a great fall</p>
+		    <!-- 1-line event with rubyReserve invoked-->
+		    <p begin="120000000t" dur="20000000t" region="bottom-left-justified">All the king's horses...</p>	
+	    </div>
+	</body>
+</tt>
