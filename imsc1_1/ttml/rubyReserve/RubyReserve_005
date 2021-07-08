@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tt xml:lang="ja" xmlns="http://www.w3.org/ns/ttml" ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" ttp:frameRate="24" ttp:frameRateMultiplier="1000 1001" ttp:tickRate="10000000" xmlns:ebutts="urn:ebu:tt:style" xmlns:itts="http://www.w3.org/ns/ttml/profile/imsc1#styling" xmlns:ittp="http://www.w3.org/ns/ttml/profile/imsc1#parameter" xmlns:ittm="http://www.w3.org/ns/ttml/profile/imsc1#metadata">
+	<head>
+		<styling>
+			<initial tts:color="white" tts:fontFamily="proportionalSansSerif" tts:fontSize="100%" xml:id="initialStyles"/>
+			
+			<!-- bouten style -->
+			<style tts:textEmphasis="filled circle outside" xml:id="bouten-filled-circle-outside"/>
+		</styling>
+		<layout>
+			<!-- General Horiztonal Positioning with ebutts:multiRowAlign -->
+			<region ebutts:multiRowAlign="start" tts:displayAlign="after" tts:extent="80.000% 80.000%" tts:origin="10.000% 10.000%" tts:rubyReserve="outside" tts:textAlign="center" xml:id="bottom-left-justified"/>
+
+			<!-- General Right Vertical Positioning -->
+			<region tts:displayAlign="before" tts:extent="80.000% 80.000%" tts:origin="10.000% 10.000%" tts:textAlign="start" tts:writingMode="tbrl" tts:rubyReserve="outside" xml:id="right"/>
+		
+		</layout>
+	</head>
+	<body>
+		<div>xml e
+			<p begin="100000000t" dur="20000000t" region="top-center-justified">No Boutens<br/>horizontal</p>
+			<p begin="100000000t" dur="20000000t" region="bottom-left-justified" ebutts:multiRowAlign="start">強調したい時に使<br/>強調したい時に使</p>
+			<p begin="120000000t" dur="20000000t" region="top-center-justified">With Boutens（傍点）<br/>horizontal</p>
+			<p begin="120000000t" dur="20000000t" region="bottom-left-justified" ebutts:multiRowAlign="start"><span style="bouten-filled-circle-outside">強調したい時に使<br/>強調したい時に使</span></p>
+			<p begin="120000000t" dur="20000000t" region="top-center-justified">With Boutens（傍点）<br/>horizontal</p>
+			<p begin="140000000t" dur="20000000t" region="top-center-justified">With Boutens（傍点）+ Punctuation<br/>horizontal</p>
+			<p begin="140000000t" dur="20000000t" region="bottom-left-justified" ebutts:multiRowAlign="start">〝<span tts:textEmphasis="filled circle before">強</span><span tts:textEmphasis="filled circle before">調</span><span tts:textEmphasis="filled circle before">し</span><span tts:textEmphasis="filled circle before">た</span><span tts:textEmphasis="filled circle before">い</span><span tts:textEmphasis="filled circle before">時</span><span tts:textEmphasis="filled circle before">に</span><span tts:textEmphasis="filled circle before">使</span><br/><span>　</span><span tts:textEmphasis="filled circle after">強</span><span tts:textEmphasis="filled circle after">調</span><span tts:textEmphasis="filled circle after">し</span><span tts:textEmphasis="filled circle after">た</span><span tts:textEmphasis="filled circle after">い</span><span tts:textEmphasis="filled circle after">時</span><span tts:textEmphasis="filled circle after">に</span><span tts:textEmphasis="filled circle after">使</span>〞</p>
+			<p begin="160000000t" dur="20000000t" region="top-center-justified">No Bouten（傍点）<br/>vertical, right</p>
+			<p begin="160000000t" dur="20000000t" region="right">強調したい時に使<br/>強調したい時に使</p>
+			<p begin="180000000t" dur="20000000t" region="top-center-justified">With Boutens（傍点）<br/>vertical</p>
+			<p begin="180000000t" dur="20000000t" region="right"><span style="bouten-filled-circle-outside">強調したい時に使<br/>強調したい時に使</span></p>
+			<p begin="200000000t" dur="20000000t" region="top-center-justified">With Boutens（傍点）+ Punctuation<br/>vertical</p>
+			<p begin="200000000t" dur="20000000t" region="right">〝<span tts:textEmphasis="filled circle before">強</span><span tts:textEmphasis="filled circle before">調</span><span tts:textEmphasis="filled circle before">し</span><span tts:textEmphasis="filled circle before">た</span><span tts:textEmphasis="filled circle before">い</span><span tts:textEmphasis="filled circle before">時</span><span tts:textEmphasis="filled circle before">に</span><span tts:textEmphasis="filled circle before">使</span><br/><span>　</span><span tts:textEmphasis="filled circle after">強</span><span tts:textEmphasis="filled circle after">調</span><span tts:textEmphasis="filled circle after">し</span><span tts:textEmphasis="filled circle after">た</span><span tts:textEmphasis="filled circle after">い</span><span tts:textEmphasis="filled circle after">時</span><span tts:textEmphasis="filled circle after">に</span><span tts:textEmphasis="filled circle after">使</span>〞</p>
+	    </div>
+	</body>
+</tt>
