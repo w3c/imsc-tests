@@ -29,9 +29,9 @@
   </head>
   <body>
     <div begin="0s" end="1s">
-      <p region="tbrlLeft">あい<span tts:textCombine="none">AB34</span>三四
+      <p region="tbrlLeft">あい<span tts:textCombine="none">AB34</span><span tts:textCombine="none">2nd</span>三四
       </p>
-      <p region="tbrlRight">あい<span tts:textCombine="all">AB34</span>三四
+      <p region="tbrlRight">あい<span tts:textCombine="all">AB34</span><span tts:textCombine="all">2nd</span>三四
       </p>
     </div>
   </body>
