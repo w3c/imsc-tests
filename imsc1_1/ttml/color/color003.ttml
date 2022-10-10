@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en"
+    xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ebutts="urn:ebu:tt:style"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+  <head>
+
+    <styling>
+
+
+      <style xml:id="r1"
+          tts:color="white"
+          tts:lineHeight="125%"
+          tts:textAlign="center"
+          tts:displayAlign="after"
+          ebutts:linePadding="0.25c"/>
+
+      <style xml:id="s1"
+          tts:backgroundColor="#00000080"
+          />
+      <style xml:id="s2"
+          tts:backgroundColor="#80000080"
+          />
+
+    </styling>
+
+    <layout>
+
+      <region 
+          xml:id="r"
+          style="r1"
+          tts:extent="80% 80%"
+          tts:origin="10% 10%" />
+
+    </layout>
+
+  </head>
+
+  <body region="r">
+    <div>
+      <p begin="0s" end="1s" style="p1"><span style="s1">Ghost box change to </span><span style="s2">red</span><br/><span style="s1">No Gap change to</span><span style="s2"> red</span></p>
+    </div>
+  </body>
+
+</tt>

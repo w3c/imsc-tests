@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en"
+    xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ebutts="urn:ebu:tt:style"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+  <head>
+
+    <styling>
+
+
+      <style xml:id="r1"
+          tts:color="white"
+          tts:lineHeight="125%"
+          tts:textAlign="center"
+          tts:displayAlign="after"
+          ebutts:linePadding="0.25c"
+          tts:textOutline="#000000 0.05em" />
+
+      <style xml:id="s1"
+          tts:backgroundColor="#00000080"
+          />
+      <style xml:id="s2"
+          tts:backgroundColor="#80000080"
+          />
+      <style xml:id="s_fg_black" tts:color="#000000"/>
+      <style xml:id="s_fg_red" tts:color="#FF0000"/>
+      <style xml:id="s_fg_yellow" tts:color="#FFFF00"/>
+      <style xml:id="s_fg_green" tts:color="#00FF00"/>
+      <style xml:id="s_fg_cyan" tts:color="#00FFFF"/>
+      <style xml:id="s_fg_blue" tts:color="#0000FF"/>
+      <style xml:id="s_fg_magenta" tts:color="#FF00FF"/>
+      
+
+    </styling>
+
+    <layout>
+
+      <region 
+          xml:id="r"
+          style="r1"
+          tts:extent="80% 80%"
+          tts:origin="10% 10%" />
+
+    </layout>
+
+  </head>
+
+  <body region="r">
+    <div>
+      <p begin="0s" end="1s" style="p1"><span style="s_fg_red s1">red</span><span style="s_fg_yellow s1"> yellow </span><span style="s_fg_green s1">green</span><span style="s_fg_cyan s1"> cyan </span><span style="s_fg_blue s1">blue </span><span style="s_fg_magenta s1">magenta</span></p>
+      <p begin="0s" end="1s" style="p1">
+        <span style="s_fg_red s1">red</span>
+        <span style="s_fg_yellow s1"> yellow </span>
+        <span style="s_fg_green s1">green</span>
+        <span style="s_fg_cyan s1"> cyan </span>
+        <span style="s_fg_blue s1">blue </span>
+        <span style="s_fg_magenta s1">magenta</span>
+      </p>
+      <p begin="0s" end="1s" style="p1">
+        <span style="s_fg_red s1">red</span>
+        <span style="s_fg_yellow s1">yellow</span>
+        <span style="s_fg_green s1">green</span>
+        <span style="s_fg_cyan s1">cyan</span>
+        <span style="s_fg_blue s1">blue</span>
+        <span style="s_fg_magenta s1">magenta</span>
+      </p>
+    </div>
+  </body>
+
+</tt>
