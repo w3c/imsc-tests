@@ -41,7 +41,7 @@
 
   <body region="r">
     <div>
-      <p begin="0s" end="1s" style="p1">
+      <p begin="0s" end="1s">
         <span style="s1">Ghost box change to </span>
         <span style="s2">red</span>
         <br/>

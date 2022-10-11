@@ -50,8 +50,8 @@
 
   <body region="r">
     <div>
-      <p begin="0s" end="1s" style="p1"><span style="s_fg_red s1">red</span><span style="s_fg_yellow s1"> yellow </span><span style="s_fg_green s1">green</span><span style="s_fg_cyan s1"> cyan </span><span style="s_fg_blue s1">blue </span><span style="s_fg_magenta s1">magenta</span></p>
-      <p begin="0s" end="1s" style="p1">
+      <p begin="0s" end="1s"><span style="s_fg_red s1">red</span><span style="s_fg_yellow s1"> yellow </span><span style="s_fg_green s1">green</span><span style="s_fg_cyan s1"> cyan </span><span style="s_fg_blue s1">blue </span><span style="s_fg_magenta s1">magenta</span></p>
+      <p begin="0s" end="1s">
         <span style="s_fg_red s1">red</span>
         <span style="s_fg_yellow s1"> yellow </span>
         <span style="s_fg_green s1">green</span>
@@ -59,7 +59,7 @@
         <span style="s_fg_blue s1">blue </span>
         <span style="s_fg_magenta s1">magenta</span>
       </p>
-      <p begin="0s" end="1s" style="p1">
+      <p begin="0s" end="1s">
         <span style="s_fg_red s1">red</span>
         <span style="s_fg_yellow s1">yellow</span>
         <span style="s_fg_green s1">green</span>

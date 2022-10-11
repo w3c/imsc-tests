@@ -41,8 +41,8 @@
 
   <body region="r">
     <div>
-      <p begin="0s" end="1s" style="p1"><span style="s1">Span box change to </span><span style="s2">red</span></p>
-      <p begin="0s" end="1s" style="p1 s1"><span>P box change to </span><span style="s2">red</span></p>
+      <p begin="0s" end="1s"><span style="s1">Span box change to </span><span style="s2">red</span></p>
+      <p begin="0s" end="1s" style="s1"><span>P box change to </span><span style="s2">red</span></p>
     </div>
   </body>
 
