@@ -38,7 +38,7 @@
 
   <body region="r">
     <div>
-      <p begin="0s" end="1s" style="p1">
+      <p begin="0s" end="1s">
         <span style="s1">spans boxed with padding 0.25em</span>
         <br/>
         <span style="s1">a span on a 2nd line</span>

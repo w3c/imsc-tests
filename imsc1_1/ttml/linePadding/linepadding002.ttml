@@ -41,7 +41,7 @@
 
   <body region="r">
     <div>
-      <p begin="0s" end="1s" style="p1">
+      <p begin="0s" end="1s">
         <span style="s1">ruby container boxed with </span><span style="s_rb_posn_outside s1"><span style="s_rb_b">padding</span><span style="s_rb_t">0.25em</span></span>
         <br/>
         <span style="s1">a span on a 2nd line</span>
