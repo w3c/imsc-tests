@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en"
+    xmlns:tt="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ebutts="urn:ebu:tt:style"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
+  <head>
+
+    <styling>
+
+
+      <style xml:id="r1"
+          tts:color="white"
+          tts:lineHeight="125%"
+          tts:textAlign="center"
+          tts:displayAlign="before"
+          ebutts:linePadding="0.25c"/>
+      <style xml:id="s_rb_b" tts:ruby="base"/>
+      <style xml:id="s_rb_t" tts:ruby="text"/>
+      <style xml:id="s_rb_posn_outside" tts:ruby="container" tts:rubyPosition="outside"/>
+
+      <style xml:id="s1"
+          tts:backgroundColor="#00000080"
+          />
+
+    </styling>
+
+    <layout>
+
+      <region 
+          xml:id="r"
+          style="r1"
+          tts:writingMode="tbrl"
+          tts:extent="80% 80%"
+          tts:origin="10% 10%" />
+
+    </layout>
+
+  </head>
+
+  <body region="r">
+    <div>
+      <p begin="0s" end="1s">
+        <span style="s1">ruby </span><span style="s_rb_posn_outside s1"><span style="s_rb_b">padding</span><span style="s_rb_t">0.25em</span></span>
+        <br/>
+        <span style="s1">a span line2</span>
+      </p>
+      <p begin="0s" end="1s">
+        <span style="s1">ruby wrapped with </span><span style="s_rb_posn_outside s1"><span style="s_rb_b">padding</span><span style="s_rb_t">0.25em</span></span>
+      </p>
+    </div>
+  </body>
+
+</tt>
