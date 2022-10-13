@@ -4,21 +4,23 @@
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
     xmlns="http://www.w3.org/ns/ttml"
     xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
     xmlns:ebutts="urn:ebu:tt:style"
     ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text">
   <head>
+    <metadata> 
+      <ttm:title>Styling Test - Color - 010</ttm:title>
+      <ttm:desc>Test tts:color using different XML spacing.</ttm:desc>
+      <ttm:copyright>Copyright (C) 2022 W3C (MIT, ERCIM, Keio).</ttm:copyright>
+    </metadata>
 
     <styling>
-
-
       <style xml:id="r1"
           tts:color="white"
           tts:lineHeight="125%"
           tts:textAlign="center"
           tts:displayAlign="after"
-          ebutts:linePadding="0.25c"
           tts:textOutline="#000000 0.05em" />
-
       <style xml:id="s1"
           tts:backgroundColor="#00000080"
           />
@@ -32,18 +34,14 @@
       <style xml:id="s_fg_cyan" tts:color="#00FFFF"/>
       <style xml:id="s_fg_blue" tts:color="#0000FF"/>
       <style xml:id="s_fg_magenta" tts:color="#FF00FF"/>
-      
-
     </styling>
 
     <layout>
-
       <region 
           xml:id="r"
           style="r1"
           tts:extent="80% 80%"
           tts:origin="10% 10%" />
-
     </layout>
 
   </head>
