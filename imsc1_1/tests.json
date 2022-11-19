@@ -126,5 +126,8 @@
 {
 "path": "luminanceGain/luminanceGain001.ttml",
 "params": {"pqPixels" : true}
+},
+{
+  "path": "linePadding/linepadding002.ttml"
 }
 ]
