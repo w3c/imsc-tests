@@ -1,7 +1,6 @@
 name: Verify TTML Files
 
 on:
-  push:
   pull_request:
 
 jobs:
@@ -35,4 +34,4 @@ jobs:
         run: |
           JAR=$(find build/ttt/ttt-ttv-all/target -name "ttt-ttv-all-*.jar" | head -n 1)
           echo "Using JAR: $JAR"
-          find imsc* -name "*.ttml" -print0 | xargs -0 java -jar "$JAR" --quiet --force-model ttml2 --force-encoding UTF-8
+          find imsc* -name "*.ttml" -print0 | xargs -0 java -jar "$JAR" --servlet --quiet --force-model imsc11 --force-encoding UTF-8
