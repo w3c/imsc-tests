@@ -10,16 +10,16 @@
       <region
         xml:id="r"
         style="r1"
-        tts:fontSize="200%"
+        tts:fontSize="150%"
         tts:extent="80% 80%"
         tts:origin="10% 10%"/>
     </layout>
   </head>
   <body region="r">
     <div>
-      <p>Superscript: 1<span tts:fontVariant="super">er</span>,
+      <p>Super: 1<span tts:fontVariant="super">er</span>,
       2<span tts:fontVariant="super">d</span>…</p>
-      <p>Subscript: H<span tts:fontVariant="sub">2</span>O,
+      <p>Sub: H<span tts:fontVariant="sub">2</span>O,
       CO<span tts:fontVariant="sub">2</span>…</p>  
     </div>
   </body>
