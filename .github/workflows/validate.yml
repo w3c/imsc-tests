@@ -1,0 +1,38 @@
+name: Verify TTML Files
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Checkout ttt
+        uses: actions/checkout@v4
+        with:
+          repository: skynav/ttt
+          path: build/ttt
+          submodules: true
+
+      - name: Set up JDK 8
+        uses: actions/setup-java@v4
+        with:
+          java-version: '8'
+          distribution: 'temurin'
+          cache: 'maven'
+
+      - name: Build ttt-ttv-all
+        working-directory: build/ttt
+        run: |
+          mvn -B -f ttt-deps/pom.xml install
+          mvn -B -pl ttt-ttv-all -am clean install -DskipTests
+
+      - name: Run verification
+        run: |
+          JAR=$(find build/ttt/ttt-ttv-all/target -name "ttt-ttv-all-*.jar" | head -n 1)
+          echo "Using JAR: $JAR"
+          find imsc* -name "*.ttml" -print0 | xargs -0 java -jar "$JAR" --force-encoding UTF-8
