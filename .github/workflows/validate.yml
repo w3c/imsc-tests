@@ -34,6 +34,6 @@ jobs:
         run: |
           JAR=$(find build/ttt/ttt-ttv-all/target -name "ttt-ttv-all-*.jar" | head -n 1)
           echo "Using JAR: $JAR"
-          find imsc1 -name "*.ttml" -print0 | xargs -0 java -jar "$JAR" --servlet --quiet --force-model imsc1 --force-encoding UTF-8
-          find imsc1_1 -name "*.ttml" -print0 | xargs -0 java -jar "$JAR" --servlet --quiet --force-model imsc11 --force-encoding UTF-8
-          find imsc1_2 -name "*.ttml" -print0 | xargs -0 java -jar "$JAR" --servlet --quiet --force-model imsc11 --force-encoding UTF-8
+          find imsc1 -name "*.ttml" -print0 | xargs -0 java -jar "$JAR" --disable-warnings --force-model imsc10 --force-encoding UTF-8
+          find imsc1_1 -name "*.ttml" -print0 | xargs -0 java -jar "$JAR" --disable-warnings --disable-warnings --force-model imsc11 --force-encoding UTF-8
+          find imsc1_2 -name "*.ttml" -print0 | xargs -0 java -jar "$JAR" --disable-warnings --disable-warnings --force-model imsc11 --force-encoding UTF-8
