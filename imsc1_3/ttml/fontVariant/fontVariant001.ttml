@@ -9,7 +9,6 @@
     <layout>
       <region
         xml:id="r"
-        style="r1"
         tts:fontSize="150%"
         tts:extent="80% 80%"
         tts:origin="10% 10%"/>
