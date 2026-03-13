@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en"
+  xmlns:tt="http://www.w3.org/ns/ttml"
+  xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+  xmlns="http://www.w3.org/ns/ttml"
+  xmlns:tts="http://www.w3.org/ns/ttml#styling"
+  ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.3/text">
+  <head>
+    <layout>
+      <region
+        xml:id="r"
+        tts:fontSize="150%"
+        tts:extent="80% 80%"
+        tts:origin="10% 10%"/>
+    </layout>
+  </head>
+  <body region="r">
+    <div>
+      <p>Super: 1<span tts:fontVariant="super">er</span>,
+      2<span tts:fontVariant="super">d</span>…</p>
+      <p>Sub: H<span tts:fontVariant="sub">2</span>O,
+      CO<span tts:fontVariant="sub">2</span>…</p>  
+    </div>
+  </body>
+</tt>
