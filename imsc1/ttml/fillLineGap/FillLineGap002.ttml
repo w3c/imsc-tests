@@ -17,8 +17,8 @@
 
     </styling>
     <layout>
-      <region xml:id="bottom" tts:origin="50% 50%" tts:extent="40% 40%" tts:displayAlign="after" />
-      <region xml:id="top" tts:origin="10% 10%" tts:extent="40% 40%" tts:displayAlign="before"/>
+      <region xml:id="bottom" tts:origin="10% 50%" tts:extent="80% 40%" tts:displayAlign="after" />
+      <region xml:id="top" tts:origin="10% 10%" tts:extent="80% 40%" tts:displayAlign="before"/>
 
     </layout>
   </head>
