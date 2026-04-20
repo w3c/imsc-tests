@@ -4,16 +4,10 @@
   <head>
     <metadata> 
       <ttm:title>Styling Test - Opacity - 004</ttm:title>
-      <ttm:desc>Test tts:opacity attribute on two regions with 1.00 and 0.60 alpha values.</ttm:desc>
-      <ttm:copyright>Copyright (C) 2008 W3C (MIT, ERCIM, Keio).</ttm:copyright>
+      <ttm:desc>Based on TTML Opacity004.ttml</ttm:desc>
     </metadata>
-    
+
     <layout>
-      <tt:region tts:origin="10% 10%" tts:extent="80% 80%" xml:id="r1">
-	<style tts:backgroundColor="black"/>
-	<style tts:color="white"/>
-	<style tts:opacity="1.00"/>
-      </tt:region>
       <tt:region tts:origin="10% 10%" tts:extent="80% 80%" xml:id="r2">
 	<style tts:backgroundColor="red"/>
 	<style tts:color="white"/>
