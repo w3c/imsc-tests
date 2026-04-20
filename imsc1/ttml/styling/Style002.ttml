@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en"
+    xmlns="http://www.w3.org/ns/ttml" 
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter" 
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1/text">
+    <head>
+        <styling>
+            <style xml:id="s1" tts:backgroundColor="blue"/>
+        </styling>
+        <layout>
+            <region xml:id="r1" style="s1">
+                <style tts:color="red" tts:backgroundColor="yellow"/>
+            </region>
+        </layout>
+    </head>
+    <body>
+        <div region="r1"><p>The background should be yellow.</p></div>
+    </body>
+</tt>
