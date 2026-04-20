@@ -1,0 +1,65 @@
+<tt xml:lang="ja"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+    ttp:frameRate="25"
+    ttp:frameRateMultiplier="1 1"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text"
+    ttp:displayAspectRatio="16 9"
+    ttp:timeBase="media">
+  <head>
+    <metadata>
+      <ttm:desc>Tests tts:textEmphasis="auto" value</ttm:desc>
+    </metadata>
+    <styling>
+      <style xml:id="style.center"
+             tts:fontFamily="proportionalSansSerif"
+             tts:fontSize="80%"
+             tts:fontStyle="normal"
+             tts:fontWeight="normal"
+             tts:backgroundColor="transparent"
+             tts:color="white"
+             tts:textOutline="black 4%"
+             tts:textAlign="center"/>
+      <style xml:id="style.left"
+             tts:fontFamily="proportionalSansSerif"
+             tts:fontSize="80%"
+             tts:fontStyle="normal"
+             tts:fontWeight="normal"
+             tts:backgroundColor="transparent"
+             tts:color="white"
+             tts:textOutline="black 4%"
+             tts:textAlign="left"/>
+    </styling>
+    <layout>
+      <region xml:id="region.after"
+              tts:displayAlign="after"
+              tts:backgroundColor="transparent"
+              tts:origin="5% 50%"
+              tts:extent="90% 45%"/>
+      <region xml:id="region.vertical.after"
+              tts:displayAlign="after"
+              tts:backgroundColor="transparent"
+              tts:origin="5% 5%"
+              tts:extent="45% 90%"
+              tts:writingMode="tbrl"/>
+    </layout>
+  </head>
+  <body>
+    <div>
+      <p style="style.center"
+         region="region.after"
+         begin="0f"
+         end="1f">
+        <span tts:textEmphasis="auto before">ても美</span>
+      </p>
+      <p style="style.left"
+         region="region.vertical.after"
+         begin="1f"
+         end="2f">
+        <span tts:textEmphasis="auto after">ても美</span>
+      </p>
+    </div>
+  </body>
+</tt>
