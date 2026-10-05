@@ -20,20 +20,20 @@
       <p begin="0s" end="1s" region="r1">
         <span tts:ruby="container" tts:textDecoration="underline" xml:space="default">
           <span tts:ruby="baseContainer">
-            <span tts:ruby="base">single underline</span>
+            <span tts:ruby="base">single underline base</span>
           </span>
           <span tts:ruby="textContainer">
-            <span tts:ruby="text">single underline</span>
+            <span tts:ruby="text">default</span>
           </span>
         </span>
       </p>
       <p begin="0s" end="1s" region="r2">
         <span tts:ruby="container" tts:textDecoration="underline" xml:space="preserve">
           <span tts:ruby="baseContainer">
-            <span tts:ruby="base">single underline</span>
+            <span tts:ruby="base">single underline base</span>
           </span>
           <span tts:ruby="textContainer">
-            <span tts:ruby="text">single underline</span>
+            <span tts:ruby="text">preserve</span>
           </span>
         </span>
       </p>
