@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- LWSP are ignored from the ruby container spans, regardless of the xml:space value, as specified in TTML2 2ED -->
 <tt xml:lang="ja"
     xmlns:tt="http://www.w3.org/ns/ttml"
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
